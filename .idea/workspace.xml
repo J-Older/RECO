@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="134ec0f4-ce6b-4c1e-8164-67871179fe42" name="Default Changelist" comment="" />
+    <list default="true" id="134ec0f4-ce6b-4c1e-8164-67871179fe42" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,11 +92,6 @@
               <item name="RECO" type="b2602c69:ProjectViewProjectNode" />
               <item name="RECO" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="RECO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RECO" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -160,12 +157,27 @@
       <workItem from="1581511603263" duration="189000" />
       <workItem from="1581511868149" duration="4639000" />
       <workItem from="1581945834524" duration="5863000" />
-      <workItem from="1582006873505" duration="4412000" />
+      <workItem from="1582006873505" duration="4887000" />
     </task>
+    <task id="LOCAL-00001" summary="RECO ver. 1">
+      <created>1582011394021</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582011394022</updated>
+    </task>
+    <task id="LOCAL-00002" summary="RECO ver. 1">
+      <created>1582011535144</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582011535145</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15103000" />
+    <option name="totallyTimeSpent" value="15578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -202,6 +214,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RECO ver. 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="RECO ver. 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="28" key="#File_Watchers" timestamp="1581428326189">
