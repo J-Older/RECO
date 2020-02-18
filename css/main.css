@@ -1,0 +1,124 @@
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .bgf::before {
+  position: absolute;
+  background: url("../img/0.jpg") no-repeat center;
+}
+.main .bgf {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2) border-box;
+  overflow: hidden;
+  position: fixed;
+}
+.main .bgf::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: -30px;
+  z-index: -1;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.main img {
+  position: absolute;
+  width: 550px;
+}
+.main .menu_left {
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #0000005e;
+}
+.main .menu_left a {
+  width: 80px;
+  height: 25%;
+}
+.main .menu_left a img {
+  width: 80px;
+}
+.main .menu_left .menu {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .menu_left .menu ::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.main .menu_left .menu ul {
+  list-style: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main .menu_left .menu ul li {
+  width: 100%;
+}
+.main .menu_left .menu ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.main .scroll-content-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  display: flex;
+  height: 100vh;
+  padding-left: 100vw;
+  overflow-x: scroll;
+}
+.main .scroll-content-right ::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.main .scroll-content-right .screen-item {
+  width: 1920px;
+  height: 100%;
+}
+.main .scroll-content-right .screen-item:first-child {
+  background: red;
+}
+.main .scroll-content-right .screen-item:nth-child(2) {
+  background: greenyellow;
+}
+
+/*# sourceMappingURL=main.css.map */

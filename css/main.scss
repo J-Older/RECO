@@ -1,0 +1,150 @@
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .bgf::before {
+    //width: 100%;
+    //height: 100%;
+    position: absolute;
+    background: url("../img/0.jpg") no-repeat center;
+    //filter: blur(0) brightness(0.7);
+
+  }
+
+  .bgf {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: hsla(0, 0%, 0%, 0.2) border-box;
+    overflow: hidden;
+    position: fixed;
+  }
+
+  .bgf::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: -30px;
+    z-index: -1;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+
+  img {
+    position: absolute;
+    width: 550px;
+  }
+
+  .menu_left {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #0000005e;
+
+
+    a {
+      width: 80px;
+      height: 25%;
+
+      img {
+        width: 80px
+      }
+    }
+
+    .menu {
+      width: 100%;
+      height: 75%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      ::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+      }
+
+      ul {
+        list-style: none;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        li {
+          width: 100%;
+
+          a {
+            text-decoration: none;
+            font-size: 17px;
+            font-family: "Comfortaa", sans-serif;
+            font-weight: bold;
+            color: white;
+          }
+        }
+      }
+
+    }
+
+  }
+
+  .scroll-content-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    display: flex;
+    height: 100vh;
+    padding-left: 100vw;
+    overflow-x: scroll;
+
+    ::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+
+    .screen-item {
+      width: 1920px;
+      height: 100%;
+    }
+
+    .screen-item:first-child {
+      background: red;
+      //margin-right: -100vw;
+
+    }
+
+    .screen-item:nth-child(2) {
+      background: greenyellow;
+    }
+  }
+
+}
