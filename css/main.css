@@ -131,6 +131,35 @@ body {
   width: auto;
   position: unset;
 }
+.main .line-status {
+  width: 70vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  align-items: center;
+  position: fixed;
+  padding: 15px;
+  z-index: 2;
+}
+.main .line-status .progress-container {
+  width: 100%;
+  background: transparent;
+  height: 5px;
+  display: block;
+  position: relative;
+}
+.main .line-status .progress-container svg {
+  position: absolute;
+}
+.main .line-status .progress-bar {
+  background: #9bc65a;
+  width: 0;
+  height: inherit;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+}
 .main .scroll-content-right {
   position: absolute;
   top: 0;

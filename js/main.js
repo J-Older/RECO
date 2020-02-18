@@ -4,3 +4,12 @@ $('html, body, *').mousewheel(function (e, delta) {
     this.scrollLeft -= (delta * 1);
     e.preventDefault();
 });
+
+
+    $(window).on("scroll resize", function() {
+        var o = $(window).scrollLeft() / ($(document).width() - $(window).width());
+        $(".progress-bar").css({
+            "width": (100 * o | 0) + "%"
+        });
+        $('progress')[0].value = o;
+    });
