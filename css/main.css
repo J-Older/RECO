@@ -48,7 +48,7 @@ body {
   position: absolute;
   width: 550px;
 }
-.main .menu_left {
+.main .menu-left {
   position: fixed;
   z-index: 2;
   left: 0;
@@ -59,25 +59,25 @@ body {
   flex-wrap: wrap;
   background: #0000005e;
 }
-.main .menu_left a {
+.main .menu-left a {
   width: 80px;
   height: 25%;
 }
-.main .menu_left a img {
+.main .menu-left a img {
   width: 80px;
 }
-.main .menu_left .menu {
+.main .menu-left .menu {
   width: 100%;
   height: 75%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.main .menu_left .menu ::-webkit-scrollbar {
+.main .menu-left .menu ::-webkit-scrollbar {
   width: 0;
   height: 0;
 }
-.main .menu_left .menu ul {
+.main .menu-left .menu ul {
   list-style: none;
   height: 100%;
   margin: 0;
@@ -86,15 +86,50 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.main .menu_left .menu ul li {
+.main .menu-left .menu ul li {
   width: 100%;
 }
-.main .menu_left .menu ul li a {
+.main .menu-left .menu ul li a {
   text-decoration: none;
   font-size: 17px;
   font-family: "Comfortaa", sans-serif;
   font-weight: bold;
   color: white;
+}
+.main .menu-links {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-start;
+  align-items: center;
+  position: fixed;
+  padding: 15px;
+  z-index: 2;
+}
+.main .menu-links a {
+  margin: 0 15px 0 0;
+  width: 50px;
+  height: 50px;
+  background: #0000005e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  filter: opacity(0.5);
+  transition: 1s;
+}
+.main .menu-links a:hover {
+  filter: none;
+}
+.main .menu-links a:hover img {
+  transform: scale(1.1);
+  transition: 1s;
+}
+.main .menu-links a img {
+  height: 20px;
+  width: auto;
+  position: unset;
 }
 .main .scroll-content-right {
   position: absolute;
