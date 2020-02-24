@@ -11,6 +11,7 @@ $('html, body, *').mousewheel(function (e, delta) {
         $(".progress-bar").css({
             "width": (100 * o | 0) + "%"
         });
-        $('progress')[0].value = o;
+        $('.progress')[0].value = o;
     });
+
 

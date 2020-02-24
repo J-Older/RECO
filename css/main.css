@@ -1,3 +1,4 @@
+@import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 ::-webkit-scrollbar {
   width: 0;
   height: 0;
@@ -116,8 +117,11 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  filter: opacity(0.5);
-  transition: 1s;
+  filter: opacity(0.3);
+  font-size: 25px;
+  font-family: "FontAwesome", sans-serif;
+  color: white;
+  text-decoration: none;
 }
 .main .menu-links a:hover {
   filter: none;
