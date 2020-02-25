@@ -18,37 +18,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-.main .bgf::before {
-  position: absolute;
-  background: url("../img/0.jpg") no-repeat center;
-}
-.main .bgf {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.2) border-box;
-  overflow: hidden;
-  position: fixed;
-}
-.main .bgf::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: -30px;
-  z-index: -1;
-  -webkit-filter: blur(5px);
-  filter: blur(5px);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.main img {
-  position: absolute;
-  width: 550px;
-}
 .main .menu-left {
   position: fixed;
   z-index: 2;
@@ -171,7 +140,6 @@ body {
   width: auto;
   display: flex;
   height: 100vh;
-  padding-left: 100vw;
   overflow-x: scroll;
 }
 .main .scroll-content-right ::-webkit-scrollbar {
@@ -182,11 +150,48 @@ body {
   width: 1920px;
   height: 100%;
 }
-.main .scroll-content-right .screen-item:first-child video {
+.main .scroll-content-right .screen-item:first-child {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .scroll-content-right .screen-item:first-child .bgf::before {
+  position: absolute;
+  background: url("../img/0.jpg") no-repeat center;
+}
+.main .scroll-content-right .screen-item:first-child .bgf {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2) border-box;
+  overflow: hidden;
+  position: absolute;
+}
+.main .scroll-content-right .screen-item:first-child .bgf::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: -30px;
+  z-index: -1;
+  -webkit-filter: blur(5px);
   filter: blur(5px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.main .scroll-content-right .screen-item:first-child img {
+  position: absolute;
+  width: 550px;
 }
 .main .scroll-content-right .screen-item:nth-child(2) {
-  background: greenyellow;
+  margin: -15px 0 0 -40px;
+}
+.main .scroll-content-right .screen-item:nth-child(2) video {
+  filter: blur(5px);
 }
 
 /*# sourceMappingURL=main.css.map */
