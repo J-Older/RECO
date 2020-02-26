@@ -250,7 +250,6 @@ body {
 }
 .main #first {
   height: 100%;
-  overflow: hidden;
 }
 .main #first .screen-item:first-child {
   overflow: hidden;

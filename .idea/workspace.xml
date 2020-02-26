@@ -72,8 +72,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/css/main.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="346">
-                      <caret line="374" column="10" selection-start-line="374" selection-start-column="10" selection-end-line="374" selection-end-column="10" />
+                    <state relative-caret-position="-375">
+                      <caret line="321" column="19" lean-forward="true" selection-start-line="321" selection-start-column="2" selection-end-line="321" selection-end-column="19" />
                       <folding>
                         <element signature="e#431#2710#0" />
                         <element signature="e#2724#3287#0" />
@@ -229,20 +229,6 @@
       <workItem from="1582632445189" duration="2359000" />
       <workItem from="1582730517277" duration="541000" />
       <workItem from="1582731296341" duration="8623000" />
-    </task>
-    <task id="LOCAL-00004" summary="RECO ver. 1">
-      <created>1582017292908</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1582017292908</updated>
-    </task>
-    <task id="LOCAL-00005" summary="RECO ver. 1">
-      <created>1582553679923</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1582553679924</updated>
     </task>
     <task id="LOCAL-00006" summary="RECO ver. 1">
       <created>1582707261829</created>
@@ -573,11 +559,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582752315872</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="RECO ver. 2">
+      <created>1582752859198</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1582752859198</updated>
+    </task>
+    <task id="LOCAL-00054" summary="RECO ver. 2">
+      <created>1582753081770</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1582753081770</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74086000" />
+    <option name="totallyTimeSpent" value="74463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -744,8 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="374" column="10" selection-start-line="374" selection-start-column="10" selection-end-line="374" selection-end-column="10" />
+        <state relative-caret-position="-375">
+          <caret line="321" column="19" lean-forward="true" selection-start-line="321" selection-start-column="2" selection-end-line="321" selection-end-column="19" />
           <folding>
             <element signature="e#431#2710#0" />
             <element signature="e#2724#3287#0" />
