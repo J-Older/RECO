@@ -58,13 +58,20 @@ body {
 }
 .main .menu-left .menu ul li {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .main .menu-left .menu ul li a {
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
   font-family: "Comfortaa", sans-serif;
   font-weight: bold;
   color: white;
+  transition: 0.4s;
+}
+.main .menu-left .menu ul li a:hover {
+  color: #8ed425;
 }
 .main .menu-links {
   width: 100vw;
@@ -86,7 +93,6 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  filter: opacity(0.3);
   font-size: 25px;
   font-family: "FontAwesome", sans-serif;
   color: white;
@@ -94,15 +100,8 @@ body {
 }
 .main .menu-links a:hover {
   filter: none;
-}
-.main .menu-links a:hover img {
-  transform: scale(1.1);
-  transition: 1s;
-}
-.main .menu-links a img {
-  height: 20px;
-  width: auto;
-  position: unset;
+  color: #8ed425;
+  transition: 0.4s;
 }
 .main .line-status {
   width: 70vw;

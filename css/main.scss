@@ -64,13 +64,21 @@ body {
 
         li {
           width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
 
           a {
             text-decoration: none;
-            font-size: 17px;
+            font-size: 15px;
             font-family: "Comfortaa", sans-serif;
             font-weight: bold;
             color: white;
+            transition: 0.4s;
+
+            &:hover {
+              color: #8ed425;
+            }
           }
         }
       }
@@ -99,7 +107,7 @@ body {
       justify-content: center;
       align-items: center;
       border-radius: 50%;
-      filter: opacity(0.3);
+      //filter: opacity(0.3);
       //transition: 1s;
       font-size: 25px;
       font-family: "FontAwesome", sans-serif;
@@ -109,18 +117,10 @@ body {
 
       &:hover {
         filter: none;
-
-        img {
-          transform: scale(1.1);
-          transition: 1s;
-        }
+        color: #8ed425;
+        transition: 0.4s;
       }
 
-      img {
-        height: 20px;
-        width: auto;
-        position: unset;
-      }
     }
   }
 
