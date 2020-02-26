@@ -216,7 +216,6 @@ body {
   height: 100%;
   background: rgba(0, 0, 0, 0.2) border-box;
   position: fixed;
-  overflow: hidden;
 }
 .main .scroll-content-right .screen-item:first-child .bgf::before {
   content: "";
