@@ -1,8 +1,9 @@
 @import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 
 ::-webkit-scrollbar {
-  width: 0;
-  height: 0;
+  display: none;
+  //width: 0;
+  //height: 0;
 }
 
 body {
