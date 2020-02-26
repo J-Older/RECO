@@ -72,8 +72,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/css/main.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-375">
-                      <caret line="321" column="19" lean-forward="true" selection-start-line="321" selection-start-column="2" selection-end-line="321" selection-end-column="19" />
+                    <state relative-caret-position="322">
+                      <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="23" />
                       <folding>
                         <element signature="e#431#2710#0" />
                         <element signature="e#2724#3287#0" />
@@ -120,6 +120,8 @@
     <findStrings>
       <find>height: 100vh;</find>
       <find>height</find>
+      <find>over</find>
+      <find>overflow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -229,13 +231,6 @@
       <workItem from="1582632445189" duration="2359000" />
       <workItem from="1582730517277" duration="541000" />
       <workItem from="1582731296341" duration="8623000" />
-    </task>
-    <task id="LOCAL-00006" summary="RECO ver. 1">
-      <created>1582707261829</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1582707261829</updated>
     </task>
     <task id="LOCAL-00007" summary="RECO ver. 1">
       <created>1582709464650</created>
@@ -573,11 +568,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582753081770</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="RECO ver. 2">
+      <created>1582753236826</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1582753236826</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74463000" />
+    <option name="totallyTimeSpent" value="74750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -744,8 +746,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="321" column="19" lean-forward="true" selection-start-line="321" selection-start-column="2" selection-end-line="321" selection-end-column="19" />
+        <state relative-caret-position="322">
+          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="e#431#2710#0" />
             <element signature="e#2724#3287#0" />

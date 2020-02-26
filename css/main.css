@@ -14,7 +14,6 @@ body {
   margin: 0;
   width: 100vw;
   height: 100%;
-  overflow-x: scroll;
 }
 
 .main {
@@ -278,7 +277,6 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  overflow: scroll;
 }
 @media (max-width: 768px) {
   .main #fifth .screen-item {
