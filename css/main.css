@@ -13,16 +13,15 @@ body {
   padding: 0;
   margin: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   overflow-x: scroll;
 }
 
 .main {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0;
-  overflow-x: scroll;
   left: 0;
   display: flex;
   justify-content: center;
@@ -33,7 +32,7 @@ body {
   z-index: 10;
   left: 0;
   width: 200px;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -189,11 +188,11 @@ body {
   width: auto;
   display: flex;
   height: 100%;
-  overflow-x: scroll;
-  overflow-y: hidden;
 }
 .main .scroll-content-right ::-webkit-scrollbar {
   display: none;
+  width: 0;
+  height: 0;
 }
 .main .scroll-content-right .screen-item {
   width: 100vw;
