@@ -1,7 +1,7 @@
 $('html, body, *').mousewheel(function (e, deltaX) {
     // multiplying by 40 is the sensitivity,
     // increase to scroll faster.
-    this.scrollLeft -= (deltaX * 1);
+    this.scrollLeft -= (deltaX * 40);
     // e.preventDefault();
 });
 
