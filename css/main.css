@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .main .menu-left {
   position: fixed;
@@ -239,6 +240,9 @@ body {
 .main .scroll-content-right .screen-item:nth-child(2) video {
   filter: blur(5px);
   transform: scale(1.01);
+}
+.main #first {
+  height: 100%;
 }
 @media (max-width: 767px) {
   .main #first .screen-item:first-child .bgf {

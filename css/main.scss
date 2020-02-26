@@ -19,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 
   .menu-left {
     position: fixed;
@@ -304,6 +305,7 @@ body {
   }
 
   #first {
+    height: 100%;
 
     .screen-item:first-child {
 
@@ -354,7 +356,6 @@ body {
     overflow: scroll;
     //align-items: center;
     //justify-content: center;
-
 
 
     .screen-item {
