@@ -4,6 +4,7 @@
     <list default="true" id="134ec0f4-ce6b-4c1e-8164-67871179fe42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,13 +69,11 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/css/main.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="285">
-                      <caret line="377" column="28" selection-start-line="377" selection-start-column="28" selection-end-line="377" selection-end-column="28" />
+                    <state relative-caret-position="733">
+                      <caret line="157" column="31" selection-start-line="157" selection-start-column="31" selection-end-line="157" selection-end-column="31" />
                       <folding>
-                        <element signature="e#342#2906#0" />
                         <element signature="e#1897#1983#0" />
                         <element signature="e#713#749#0" />
-                        <element signature="e#1995#2821#0" />
                         <element signature="e#771#839#0" />
                         <element signature="e#2141#2187#0" />
                         <element signature="e#919#937#0" />
@@ -243,7 +242,7 @@
       <workItem from="1582006873505" duration="11533000" />
       <workItem from="1582632445189" duration="2359000" />
       <workItem from="1582730517277" duration="541000" />
-      <workItem from="1582731296341" duration="4854000" />
+      <workItem from="1582731296341" duration="5274000" />
     </task>
     <task id="LOCAL-00001" summary="RECO ver. 1">
       <created>1582011394021</created>
@@ -343,11 +342,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582736267497</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="RECO ver. 1">
+      <created>1582736755779</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1582736755779</updated>
+    </task>
+    <task id="LOCAL-00016" summary="RECO ver. 1">
+      <created>1582736871693</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1582736871693</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58931000" />
+    <option name="totallyTimeSpent" value="59351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -511,13 +524,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="377" column="28" selection-start-line="377" selection-start-column="28" selection-end-line="377" selection-end-column="28" />
+        <state relative-caret-position="733">
+          <caret line="157" column="31" selection-start-line="157" selection-start-column="31" selection-end-line="157" selection-end-column="31" />
           <folding>
-            <element signature="e#342#2906#0" />
             <element signature="e#1897#1983#0" />
             <element signature="e#713#749#0" />
-            <element signature="e#1995#2821#0" />
             <element signature="e#771#839#0" />
             <element signature="e#2141#2187#0" />
             <element signature="e#919#937#0" />

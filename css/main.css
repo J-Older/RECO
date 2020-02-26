@@ -133,9 +133,12 @@ body {
   }
 }
 .main .menu-left .menu ul.opening {
-  display: flex;
+  display: block;
   background: #0000005e;
   padding-top: 5em;
+}
+.main .menu-left .menu ul.opening li {
+  margin: 60px 0 60px 0;
 }
 .main .menu-links {
   width: 100vw;
