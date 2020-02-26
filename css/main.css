@@ -198,19 +198,17 @@ body {
 }
 .main #fifth {
   position: relative;
-  align-items: center;
-  justify-content: center;
 }
 .main #fifth .screen-item {
-  padding: 260px 0 0 200px;
+  padding: 0 0 0 200px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 .main #fifth .screen-item video {
   position: absolute;
   top: 0;
   left: 0;
+  filter: brightness(50%) blur(5px);
 }
 .main #fifth .screen-item .name {
   display: flex;
