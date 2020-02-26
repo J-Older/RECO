@@ -16,7 +16,7 @@ body {
   height: 100vh;
   position: absolute;
   top: 0;
-  overflow: hidden;
+  overflow-x: scroll;
   left: 0;
   display: flex;
   justify-content: center;
