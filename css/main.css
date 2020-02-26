@@ -23,7 +23,7 @@ body {
   z-index: 10;
   left: 0;
   width: 200px;
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -169,35 +169,6 @@ body {
   color: #8ed425;
   transition: 0.4s;
 }
-.main .line-status {
-  width: 70vw;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-self: flex-end;
-  align-items: center;
-  position: fixed;
-  padding: 15px;
-  z-index: 2;
-}
-.main .line-status .progress-container {
-  width: 100%;
-  background: transparent;
-  height: 5px;
-  display: block;
-  position: relative;
-}
-.main .line-status .progress-container svg {
-  position: absolute;
-}
-.main .line-status .progress-bar {
-  background: #9bc65a;
-  width: 0;
-  height: inherit;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-}
 .main .scroll-content-right {
   position: absolute;
   top: 0;
@@ -295,7 +266,7 @@ body {
 }
 @media (max-width: 768px) {
   .main #fifth .screen-item {
-    padding: 50px 0 0 0;
+    padding: 0 0 0 0;
   }
 }
 .main #fifth .screen-item video {
@@ -320,6 +291,11 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .main #fifth .screen-item .logo {
+    padding: 90px 0 0 0;
+  }
 }
 .main #fifth .screen-item .logo img {
   width: 300px;
