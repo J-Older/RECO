@@ -237,9 +237,6 @@ body {
   filter: blur(5px);
   transform: scale(1.01);
 }
-.main #first .screen-item:first-child {
-  overflow: hidden;
-}
 @media (max-width: 767px) {
   .main #first .screen-item:first-child .bgf {
     position: fixed;
