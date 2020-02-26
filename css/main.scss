@@ -336,7 +336,7 @@ body {
       overflow: hidden;
       video {
 
-        @media (max-width: 425px) {
+        @media (max-width: 767px) {
           height: 100% !important;
           width: auto !important;
           transform: scale(1.02);
