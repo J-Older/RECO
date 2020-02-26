@@ -186,8 +186,7 @@ body {
   overflow-y: hidden;
 }
 .main .scroll-content-right ::-webkit-scrollbar {
-  width: 0;
-  height: 0;
+  display: none;
 }
 .main .scroll-content-right .screen-item {
   width: 100vw;
