@@ -232,10 +232,13 @@ body {
     }
 
     .screen-item:nth-child(2) {
+      overflow: hidden;
 
       video {
         filter: blur(5px);
+        transform: scale(1.02);
       }
+
     }
   }
 

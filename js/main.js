@@ -1,11 +1,12 @@
-$('html, body, *').mousewheel(function (e, delta) {
+$('html, body, *').mousewheel(function (e, deltaX) {
     // multiplying by 40 is the sensitivity,
     // increase to scroll faster.
-    this.scrollLeft -= (delta * 40);
+    this.scrollLeft -= (deltaX * 1);
     e.preventDefault();
 });
 
-//
+
+
 //     $(window).on("scroll resize", function() {
 //         var o = $(window).scrollLeft() / ($(document).width() - $(window).width());
 //         $(".progress-bar").css({
