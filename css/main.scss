@@ -218,7 +218,6 @@ body {
     width: auto;
     display: flex;
     height: 100%;
-    //padding-left: 100vw;
     overflow-x: scroll;
     overflow-y: hidden;
 
@@ -267,6 +266,7 @@ body {
         height: 100%;
         background: hsla(0, 0%, 0%, 0.2) border-box;
         position: fixed;
+        overflow: hidden;
         //transform: scale(1.1);
       }
 
@@ -317,6 +317,8 @@ body {
     overflow: hidden;
 
     .screen-item:first-child {
+      overflow: hidden;
+      height: 100%;
 
       @media (max-width: 767px) {
 

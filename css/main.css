@@ -216,6 +216,7 @@ body {
   height: 100%;
   background: rgba(0, 0, 0, 0.2) border-box;
   position: fixed;
+  overflow: hidden;
 }
 .main .scroll-content-right .screen-item:first-child .bgf::before {
   content: "";
@@ -247,6 +248,10 @@ body {
 .main #first {
   height: 100%;
   overflow: hidden;
+}
+.main #first .screen-item:first-child {
+  overflow: hidden;
+  height: 100%;
 }
 @media (max-width: 767px) {
   .main #first .screen-item:first-child .bgf {
