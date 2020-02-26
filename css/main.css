@@ -197,8 +197,6 @@ body {
 .main .scroll-content-right .screen-item {
   width: 100vw;
   height: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 .main .scroll-content-right .screen-item video {
   filter: blur(5px);

@@ -237,8 +237,8 @@ height: 100%;
 .screen-item {
   width: 100vw;
   height: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  //overflow-x: hidden;
+  //overflow-y: hidden;
 
   video {
     filter: blur(5px);
