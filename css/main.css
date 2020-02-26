@@ -311,7 +311,7 @@ body {
 }
 @media (max-width: 768px) {
   .main #fifth .screen-item .logo {
-    padding: 90px 0 0 0;
+    margin: 100px 0 0 0;
   }
 }
 .main #fifth .screen-item .logo img {
@@ -327,8 +327,11 @@ body {
 }
 @media (max-width: 425px) {
   .main #fifth .screen-item .name {
-    width: 100%;
-    padding: 50px;
+    width: 90%;
+    padding: 40px;
+    background: #10101073;
+    margin: 20px;
+    border-radius: 10px;
   }
 }
 .main #fifth .screen-item .name img {

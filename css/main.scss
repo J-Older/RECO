@@ -421,7 +421,7 @@ display: flex;
     box-sizing: border-box;
 
     @media (max-width: 768px) {
-      padding: 90px 0 0 0;
+      margin: 100px 0 0 0;
     }
 
     img {
@@ -438,8 +438,14 @@ display: flex;
     z-index: 2;
 
     @media (max-width: 425px) {
-      width: 100%;
-      padding: 50px;
+      //width: 100%;
+      //padding: 50px;
+
+      width: 90%;
+      padding: 40px;
+      background: #10101073;
+      margin: 20px;
+      border-radius: 10px;
     }
 
     img {
