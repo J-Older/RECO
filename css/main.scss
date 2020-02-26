@@ -23,6 +23,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-y: hidden;
 
   .menu-left {
     position: fixed;
@@ -216,7 +217,7 @@ body {
     left: 0;
     width: auto;
     display: flex;
-    height: 100vh;
+    height: 100%;
     //padding-left: 100vw;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -231,7 +232,8 @@ body {
     .screen-item {
       width: 100vw;
       height: 100%;
-      //overflow-y: hidden;
+      overflow-x: hidden;
+      overflow-y: hidden;
 
       video {
         filter: blur(5px);
@@ -264,7 +266,8 @@ body {
         width: 100%;
         height: 100%;
         background: hsla(0, 0%, 0%, 0.2) border-box;
-        position: absolute;
+        position: fixed;
+        //transform: scale(1.1);
       }
 
       .bgf::before {
@@ -280,6 +283,7 @@ body {
         filter: blur(5px);
         -webkit-transition: all 0.5s;
         transition: all 0.5s;
+        //transform: scale(1.1);
       }
 
       img {
@@ -310,6 +314,7 @@ body {
 
   #first {
     height: 100%;
+    overflow: hidden;
 
     .screen-item:first-child {
 
