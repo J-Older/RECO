@@ -69,8 +69,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/css/main.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="235">
-                      <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+                    <state relative-caret-position="286">
+                      <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
                       <folding>
                         <element signature="e#1897#1983#0" />
                         <element signature="e#713#749#0" />
@@ -250,7 +250,7 @@
       <workItem from="1582006873505" duration="11533000" />
       <workItem from="1582632445189" duration="2359000" />
       <workItem from="1582730517277" duration="541000" />
-      <workItem from="1582731296341" duration="7810000" />
+      <workItem from="1582731296341" duration="7944000" />
     </task>
     <task id="LOCAL-00001" summary="RECO ver. 1">
       <created>1582011394021</created>
@@ -385,11 +385,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582739378967</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="RECO ver. 2">
+      <created>1582739740126</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1582739740126</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61887000" />
+    <option name="totallyTimeSpent" value="62021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -556,8 +563,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+        <state relative-caret-position="286">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="e#1897#1983#0" />
             <element signature="e#713#749#0" />
