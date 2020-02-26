@@ -273,7 +273,6 @@ body {
   height: 100%;
   position: relative;
   display: flex;
-  overflow: scroll;
 }
 .main #fifth .screen-item {
   padding: 0 0 0 200px;

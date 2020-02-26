@@ -72,13 +72,17 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/css/main.scss">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="562">
-                      <caret line="227" selection-start-line="227" selection-end-line="227" />
+                    <state relative-caret-position="346">
+                      <caret line="374" column="10" selection-start-line="374" selection-start-column="10" selection-end-line="374" selection-end-column="10" />
                       <folding>
                         <element signature="e#431#2710#0" />
                         <element signature="e#2724#3287#0" />
                         <element signature="e#3455#3504#0" />
+                        <element signature="e#3519#3728#0" />
                         <element signature="e#3606#3725#0" />
+                        <element signature="e#4033#4203#0" />
+                        <element signature="e#4220#4499#0" />
+                        <element signature="e#4507#4612#0" />
                       </folding>
                     </state>
                   </provider>
@@ -225,20 +229,6 @@
       <workItem from="1582632445189" duration="2359000" />
       <workItem from="1582730517277" duration="541000" />
       <workItem from="1582731296341" duration="8623000" />
-    </task>
-    <task id="LOCAL-00002" summary="RECO ver. 1">
-      <created>1582011535144</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1582011535145</updated>
-    </task>
-    <task id="LOCAL-00003" summary="RECO ver. 1">
-      <created>1582011853478</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1582011853478</updated>
     </task>
     <task id="LOCAL-00004" summary="RECO ver. 1">
       <created>1582017292908</created>
@@ -569,11 +559,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582751974146</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="RECO ver. 2">
+      <created>1582752253177</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1582752253177</updated>
+    </task>
+    <task id="LOCAL-00052" summary="RECO ver. 2">
+      <created>1582752315872</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1582752315872</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73479000" />
+    <option name="totallyTimeSpent" value="74086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -740,13 +744,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="227" selection-start-line="227" selection-end-line="227" />
+        <state relative-caret-position="346">
+          <caret line="374" column="10" selection-start-line="374" selection-start-column="10" selection-end-line="374" selection-end-column="10" />
           <folding>
             <element signature="e#431#2710#0" />
             <element signature="e#2724#3287#0" />
             <element signature="e#3455#3504#0" />
+            <element signature="e#3519#3728#0" />
             <element signature="e#3606#3725#0" />
+            <element signature="e#4033#4203#0" />
+            <element signature="e#4220#4499#0" />
+            <element signature="e#4507#4612#0" />
           </folding>
         </state>
       </provider>
