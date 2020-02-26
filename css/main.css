@@ -166,7 +166,6 @@ body {
   width: 100%;
   height: 100vh;
   background: rgba(0, 0, 0, 0.2) border-box;
-  overflow: hidden;
   position: absolute;
 }
 .main .scroll-content-right .screen-item:first-child .bgf::before {
@@ -187,12 +186,9 @@ body {
   position: absolute;
   width: 550px;
 }
-.main .scroll-content-right .screen-item:nth-child(2) {
-  overflow: hidden;
-}
 .main .scroll-content-right .screen-item:nth-child(2) video {
   filter: blur(5px);
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 
 /*# sourceMappingURL=main.css.map */

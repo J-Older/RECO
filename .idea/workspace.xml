@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +29,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+                <state relative-caret-position="391">
+                  <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
                   <folding>
                     <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -47,8 +46,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="806">
-                  <caret line="238" column="29" selection-start-line="238" selection-start-column="29" selection-end-line="238" selection-end-column="29" />
+                <state relative-caret-position="357">
+                  <caret line="195" selection-start-line="195" selection-end-line="195" />
                   <folding>
                     <element signature="e#1016#1950#0" />
                     <element signature="e#1966#2771#0" />
@@ -56,9 +55,6 @@
                     <element signature="e#2788#3345#0" />
                     <element signature="e#3005#3175#0" />
                     <element signature="e#3194#3340#0" />
-                    <element signature="e#3169#3355#0" />
-                    <element signature="e#3368#3567#0" />
-                    <element signature="e#3588#3890#0" />
                     <element signature="e#3902#3961#0" />
                   </folding>
                 </state>
@@ -93,9 +89,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -225,11 +221,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582553679924</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="RECO ver. 1">
+      <created>1582707261829</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582707261829</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35323000" />
+    <option name="totallyTimeSpent" value="37436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -348,8 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="238" column="29" selection-start-line="238" selection-start-column="29" selection-end-line="238" selection-end-column="29" />
+        <state relative-caret-position="357">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
           <folding>
             <element signature="e#1016#1950#0" />
             <element signature="e#1966#2771#0" />
@@ -357,9 +360,6 @@
             <element signature="e#2788#3345#0" />
             <element signature="e#3005#3175#0" />
             <element signature="e#3194#3340#0" />
-            <element signature="e#3169#3355#0" />
-            <element signature="e#3368#3567#0" />
-            <element signature="e#3588#3890#0" />
             <element signature="e#3902#3961#0" />
           </folding>
         </state>
@@ -367,8 +367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+        <state relative-caret-position="391">
+          <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
           <folding>
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
