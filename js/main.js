@@ -5,6 +5,13 @@ $('html, body, *').mousewheel(function (e, deltaX) {
     // e.preventDefault();
 });
 
+$('.menu-toggle').click(function() {
+
+    $('ul').toggleClass('opening');
+    $(this).toggleClass('open');
+
+});
+
 // var tabs = $(".menu-tabs");
 // var doc = $("#main");
 
