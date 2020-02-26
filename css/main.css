@@ -272,6 +272,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  overflow: scroll;
 }
 @media (max-width: 768px) {
   .main #fifth .screen-item {
