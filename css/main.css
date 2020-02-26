@@ -181,8 +181,6 @@ body {
   width: auto;
   display: flex;
   height: 100vh;
-  overflow-x: scroll;
-  overflow-y: hidden;
 }
 .main .scroll-content-right ::-webkit-scrollbar {
   display: none;
