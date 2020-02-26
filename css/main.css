@@ -200,31 +200,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-.main .scroll-content-right .screen-item:first-child .bgf::before {
-  position: absolute;
-  background: url("../img/0.jpg") no-repeat center;
-}
 .main .scroll-content-right .screen-item:first-child .bgf {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.2) border-box;
+  background: url("../img/0.jpg") no-repeat center;
   position: absolute;
-}
-.main .scroll-content-right .screen-item:first-child .bgf::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: -30px;
-  z-index: -1;
-  -webkit-filter: blur(5px);
-  filter: blur(5px);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 .main .scroll-content-right .screen-item:first-child img {
   position: absolute;

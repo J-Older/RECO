@@ -249,38 +249,38 @@ body {
       justify-content: center;
       align-items: center;
 
-      .bgf::before {
-        //width: 100%;
-        //height: 100%;
-        position: absolute;
-        background: url("../img/0.jpg") no-repeat center;
-        //filter: blur(0) brightness(0.7);
-
-      }
+      //.bgf::before {
+      //  //width: 100%;
+      //  //height: 100%;
+      //  position: absolute;
+      //  background: url("../img/0.jpg") no-repeat center;
+      //  //filter: blur(0) brightness(0.7);
+      //
+      //}
 
       .bgf {
         margin: 0;
         padding: 0;
         width: 100%;
         height: 100%;
-        background: hsla(0, 0%, 0%, 0.2) border-box;
+        background: url("../img/0.jpg") no-repeat center;
         position: absolute;
       }
 
-      .bgf::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        margin: -30px;
-        z-index: -1;
-        -webkit-filter: blur(5px);
-        filter: blur(5px);
-        -webkit-transition: all 0.5s;
-        transition: all 0.5s;
-      }
+      //.bgf::before {
+      //  content: '';
+      //  position: absolute;
+      //  top: 0;
+      //  right: 0;
+      //  bottom: 0;
+      //  left: 0;
+      //  margin: -30px;
+      //  z-index: -1;
+      //  -webkit-filter: blur(5px);
+      //  filter: blur(5px);
+      //  -webkit-transition: all 0.5s;
+      //  transition: all 0.5s;
+      //}
 
       img {
         position: absolute;
