@@ -407,6 +407,7 @@ body {
 .main #fifth .screen-item nav p span {
   width: auto;
   display: block;
+  text-decoration: none;
 }
 .main #fifth .screen-item nav p .green-item {
   color: #a5d84f;

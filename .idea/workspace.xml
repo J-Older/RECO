@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="134ec0f4-ce6b-4c1e-8164-67871179fe42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RECOSite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RECOSite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace-Home-PC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace-Home-PC.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/flag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/flag.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.mousewheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.mousewheel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.mousewheel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.mousewheel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <list id="e56c28a9-54d9-46f9-a39a-3d85483e633c" name="Revert &quot;RECO ver. 3&quot;" comment="Revert &quot;RECO ver. 3&quot;&#10;&#10;This reverts commit 5db69936" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,8 +48,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="209" column="20" lean-forward="true" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
+                <state relative-caret-position="334">
+                  <caret line="207" column="25" lean-forward="true" selection-start-line="207" selection-start-column="25" selection-end-line="207" selection-end-column="25" />
                   <folding>
                     <element signature="n#head#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -93,8 +79,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-78">
-                  <caret line="532" column="20" selection-start-line="532" selection-start-column="20" selection-end-line="532" selection-end-column="20" />
+                <state relative-caret-position="364">
+                  <caret line="537" column="30" selection-start-line="537" selection-start-column="30" selection-end-line="537" selection-end-column="30" />
                   <folding>
                     <element signature="e#1415#1744#0" />
                     <element signature="e#6481#6648#0" />
@@ -235,14 +221,7 @@
       <workItem from="1582632445189" duration="2359000" />
       <workItem from="1582730517277" duration="541000" />
       <workItem from="1582731296341" duration="8623000" />
-      <workItem from="1582785239820" duration="5619000" />
-    </task>
-    <task id="LOCAL-00008" summary="RECO ver. 1">
-      <created>1582710455727</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1582710455727</updated>
+      <workItem from="1582785239820" duration="5851000" />
     </task>
     <task id="LOCAL-00009" summary="RECO ver. 1">
       <created>1582713856580</created>
@@ -580,11 +559,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582753526222</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="RECO ver. 2">
+      <created>1582792056470</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1582792056471</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80840000" />
+    <option name="totallyTimeSpent" value="81072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -733,10 +719,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="537" column="30" selection-start-line="537" selection-start-column="30" selection-end-line="537" selection-end-column="30" />
+          <folding>
+            <element signature="e#1415#1744#0" />
+            <element signature="e#6481#6648#0" />
+            <element signature="e#6476#6643#0" />
+            <element signature="e#6653#6777#0" />
+            <element signature="e#6785#6906#0" />
+            <element signature="e#6936#6962#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="209" column="20" lean-forward="true" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
+        <state relative-caret-position="334">
+          <caret line="207" column="25" lean-forward="true" selection-start-line="207" selection-start-column="25" selection-end-line="207" selection-end-column="25" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -754,21 +755,6 @@
             <element signature="n#p#0;n#div#3;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#span#0;n#div#3;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#p#0;n#section#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="532" column="20" selection-start-line="532" selection-start-column="20" selection-end-line="532" selection-end-column="20" />
-          <folding>
-            <element signature="e#1415#1744#0" />
-            <element signature="e#6481#6648#0" />
-            <element signature="e#6476#6643#0" />
-            <element signature="e#6653#6777#0" />
-            <element signature="e#6785#6906#0" />
-            <element signature="e#6936#6962#0" />
           </folding>
         </state>
       </provider>
