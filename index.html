@@ -10,15 +10,12 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>RECO</title>
-    <link rel="icon" href="img/Ресурс%205.png">
+    <link rel="icon" href="img/minLogo.png">
 </head>
 
 <body>
 
-<div class="main">
-
-
-    <!--MENU LEFT-->
+<main>
 
     <div class="menu-left">
 
@@ -26,7 +23,7 @@
             <img src="img/RECO.ico" alt="">
         </a>
 
-        <nav class="menu">
+        <div class="menu">
 
             <div class="menu-toggle">
 
@@ -72,7 +69,7 @@
             </ul
             >
 
-        </nav>
+        </div>
 
     </div>
 
@@ -96,23 +93,31 @@
 
     </div>
 
-    <div class="line-status">
 
-        <div class="progress-container">
+    <nav class="line-status">
+        <a href="#s1" data-href="1" class="active">
+            <span>Section 1</span>
+        </a>
+        <a href="#s2" data-href="2">
+            <span>Section 2</span>
+        </a>
+        <a href="#s3" data-href="3">
+            <span>Section 3</span>
+        </a>
+        <a href="#s4" data-href="4">
+            <span>Section 4</span>
+        </a>
+        <a href="#s5" data-href="5">
+            <span>Section 5</span>
+        </a>
+        <span class="progress"></span>
+    </nav>
 
 
-        </div>
+    <div id="right"
+         class="section wrapper active">
 
-    </div>
-    <!-- ------------------------------------>
-
-
-    <!-- CONTENT VIEW----------->
-
-    <section id="first"
-             class="section scroll-content-right active">
-
-        <div class="screen-item">
+        <div id="s1" class="screen-item">
 
             <div class="bgf">
 
@@ -127,7 +132,7 @@
 
         </div>
 
-        <div class="screen-item">
+        <div id="s2" class="screen-item">
 
             <video preload="auto"
                    autoplay="autoplay"
@@ -138,17 +143,22 @@
 
         </div>
 
-        <div class="screen-item">
+        <div id="s3" class="screen-item">
 
         </div>
 
-    </section>
+        <div id="s4" class="screen-item">
+
+        </div>
+
+        <div id="s5" class="screen-item">
+
+        </div>
+    </div>
 
 
-    <!-- ------------------------------------>
+</main>
 
-
-</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js" defer></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" defer></script>
