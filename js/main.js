@@ -5,13 +5,23 @@ $('html, body, *').mousewheel(function (e, deltaX) {
     // e.preventDefault();
 });
 
-$('.menu-toggle').click(function() {
+$('.menu-toggle').click(function () {
+
+    var links = $('.menu-links');
+    var blur = $('.section');
+
+
 
     $('ul').toggleClass('opening');
-    $('.section').toggleClass('blur');
-    $(this).toggleClass('open');
-    $('#fifth').style='filter : blur(10px)';
+    $(blur).attr('style') ?
+        $(blur).removeAttr('style') :
+        $(blur).attr('style', 'filter: blur(10px); position: fixed !important;');
 
+    $(links).attr('style') ?
+        $(links).removeAttr('style') :
+        $(links).attr('style', 'visibility: hidden;');
+
+    $(this).toggleClass('open');
 });
 
 
