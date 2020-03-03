@@ -260,6 +260,7 @@ body {
 }
 .main .blur {
   filter: blur(10px);
+  transform: scale(1.4);
 }
 .main #first {
   height: 100%;
