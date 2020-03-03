@@ -201,7 +201,7 @@ main .menu-links a:hover {
 }
 main .line-status {
   position: fixed;
-  z-index: 2;
+  z-index: 3;
   bottom: 25px;
 }
 @media (max-width: 767px) {
@@ -282,11 +282,28 @@ main .wrapper ::-webkit-scrollbar {
 main .wrapper .screen-item {
   width: 100vw;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
 }
 main .wrapper .screen-item video {
   filter: blur(5px);
   width: 100%;
   height: auto;
+}
+main .wrapper .screen-item p {
+  position: absolute;
+  z-index: 2;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 35px;
+  margin: 0;
+  color: white;
+  border-radius: 50%;
+  height: 35px;
+  text-align: center;
+  width: 35px;
+  background: darkred;
 }
 main .wrapper .screen-item:first-child {
   position: relative;
