@@ -40,7 +40,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-x: auto;
+  //overflow-x: auto;
 
   .menu-left {
     position: fixed;
@@ -249,9 +249,12 @@ main {
 
     @media (max-width: 767px) {
       display: flex;
-      bottom: auto;
-      transform: rotate(90deg);
-      height: 95vw;
+      //align-items: flex-end;
+      //bottom: auto;
+      //transform: rotate(90deg);
+      transform: scale(0.7);
+      left: -138px;
+      //height: 95vw;
     }
 
     position: fixed;
@@ -281,6 +284,8 @@ main {
         right: 0;
         bottom: 5px;
         transform: translateX(50%);
+        width: 100%;
+        text-align: center;
       }
 
       &:after {
@@ -428,7 +433,7 @@ main {
   //}
 
 
-  #left {
+  #right {
     height: 100%;
     //overflow: hidden;
 
