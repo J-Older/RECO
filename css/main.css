@@ -286,6 +286,7 @@ main .wrapper .screen-item {
   align-items: center;
   justify-content: center;
   z-index: 2;
+  background: transparent;
 }
 main .wrapper .screen-item video {
   filter: blur(5px);
