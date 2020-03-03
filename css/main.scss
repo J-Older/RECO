@@ -51,6 +51,7 @@ body {
 
     @media (max-width: 767px) {
       background: transparent;
+      width: 0;
     }
 
 
@@ -59,12 +60,10 @@ body {
       height: 10%;
       text-align: center;
 
-      img {
-        width: 80px;
-        @media (max-width: 425px) {
-          display: none;
-        }
+      @media (max-width: 425px) {
+        display: none;
       }
+
     }
 
     .menu {

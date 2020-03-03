@@ -45,6 +45,7 @@ body {
 @media (max-width: 767px) {
   .main .menu-left {
     background: transparent;
+    width: 0;
   }
 }
 .main .menu-left .logo {
@@ -52,11 +53,8 @@ body {
   height: 10%;
   text-align: center;
 }
-.main .menu-left .logo img {
-  width: 80px;
-}
 @media (max-width: 425px) {
-  .main .menu-left .logo img {
+  .main .menu-left .logo {
     display: none;
   }
 }
