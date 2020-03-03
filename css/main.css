@@ -294,7 +294,7 @@ main .wrapper .screen-item video {
 }
 main .wrapper .screen-item p {
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   font-family: "Comfortaa", sans-serif;
   font-size: 35px;
   margin: 0;
