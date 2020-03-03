@@ -336,6 +336,7 @@ body {
   .blur {
     filter: blur(10px);
     transform: scale(1.4);
+    overflow: hidden;
   }
 
 
@@ -549,7 +550,7 @@ body {
           width: 100%;
           height: auto;
           color: white;
-          font-family: 'Comforta', sans-serif;
+          font-family: 'Comfortaa', sans-serif;
           font-size: 15px;
           text-align: justify;
           display: flex;
