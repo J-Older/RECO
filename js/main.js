@@ -29,17 +29,4 @@ $('.menu-toggle').click(function () {
 });
 
 
-window.onload = function () {
-    if (window.innerWidth >= 1024)
-        document.getElementById('video-container1')
-            .innerHTML =
-            '<video autoplay id="bgvid" poster="img/water-on-glass.jpg">' +
-            '<source src="img/Wind%20Energy%20-%206558.mp4">' +
-            '</video>';
-            document.getElementById('video-container2')
-                .innerHTML =
-                '<video autoplay id="bgvid2" poster="img/water-on-glass.jpg">' +
-                '<source src="img/timelaps.mp4">' +
-                '</video>'
-};
 
