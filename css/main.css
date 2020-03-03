@@ -415,6 +415,15 @@ body {
     border-radius: 10px;
   }
 }
+@media (max-width: 880px) {
+  .main #fifth .screen-item nav {
+    width: 90%;
+    padding: 40px;
+    background: #10101073;
+    margin: 20px;
+    border-radius: 10px;
+  }
+}
 @media (max-width: 425px) {
   .main #fifth .screen-item nav {
     width: 90%;
