@@ -8,6 +8,10 @@ $('html, body, *').mousewheel(function (e, deltaX) {
 $('.menu-toggle').click(function() {
 
     $('ul').toggleClass('opening');
+    $('.section').toggleClass('blur');
     $(this).toggleClass('open');
+    $('#fifth').style='filter : blur(10px)';
 
 });
+
+
