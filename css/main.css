@@ -58,6 +58,9 @@ body {
     display: none;
   }
 }
+.main .menu-left .logo img {
+  width: 80px;
+}
 .main .menu-left .menu {
   width: 100%;
   height: 90%;

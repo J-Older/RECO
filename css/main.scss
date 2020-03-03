@@ -52,6 +52,7 @@ body {
     @media (max-width: 767px) {
       background: transparent;
       width: 0;
+
     }
 
 
@@ -62,6 +63,10 @@ body {
 
       @media (max-width: 425px) {
         display: none;
+      }
+
+      img {
+        width: 80px;
       }
 
     }
