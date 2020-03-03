@@ -348,7 +348,6 @@ main {
       display: flex;
       align-items: center;
       justify-content: center;
-      z-index: 2;
       background: transparent;
       //overflow-x: hidden;
       //overflow-y: hidden;
@@ -374,6 +373,10 @@ main {
         text-align: center;
         width: 35px;
         background: darkred;
+      }
+
+      img {
+        z-index: 2;
       }
 
 

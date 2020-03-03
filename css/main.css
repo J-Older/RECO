@@ -285,7 +285,6 @@ main .wrapper .screen-item {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 2;
   background: transparent;
 }
 main .wrapper .screen-item video {
@@ -305,6 +304,9 @@ main .wrapper .screen-item p {
   text-align: center;
   width: 35px;
   background: darkred;
+}
+main .wrapper .screen-item img {
+  z-index: 2;
 }
 main .wrapper .screen-item:first-child {
   position: relative;
