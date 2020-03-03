@@ -40,7 +40,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  //overflow-x: auto;
+  overflow-x: scroll;
 
   .menu-left {
     position: fixed;
