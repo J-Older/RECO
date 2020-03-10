@@ -78,10 +78,9 @@ body #p_prldr .contpre {
   margin-left: -125px;
   margin-top: -75px;
   color: #fff;
-  font-size: 40px;
+  font-size: 25px;
   letter-spacing: -2px;
   text-align: center;
-  line-height: 35px;
   font-family: "Comfortaa", sans-serif;
   display: flex;
   justify-content: center;
@@ -90,8 +89,7 @@ body #p_prldr .contpre {
 body #p_prldr .svg_anm {
   display: block;
   background-size: 41px;
-  margin: -16px 0 0 -16px;
-  width: 70px;
+  width: 100px;
   height: 70px;
   z-index: 2;
 }
