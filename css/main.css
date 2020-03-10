@@ -293,6 +293,7 @@ main .line-status a {
   width: 120px;
   border-bottom: 1px solid white;
   float: left;
+  font-size: 10px;
   font-family: "Comfortaa", sans-serif;
 }
 main .line-status a:first-child {
@@ -316,14 +317,14 @@ main .line-status a:after {
   position: absolute;
   right: -4px;
   bottom: -4px;
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   background: white;
   z-index: 1;
   border-radius: 50%;
 }
 main .line-status a:hover:after {
-  transform: scale(1.7);
+  transform: scale(1.4);
   background: yellowgreen;
 }
 main .line-status a.active {
