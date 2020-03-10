@@ -28,6 +28,94 @@ body {
 
   //cursor: url(../img/minLogo.png), default;
 
+  #p_prldr{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    z-index: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(221deg, #808080, #131925, #665d58);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 52s ease infinite;
+    -moz-animation: AnimationName 52s ease infinite;
+    animation: AnimationName 52s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+      0% {
+        background-position: 20% 0%
+      }
+      50% {
+        background-position: 81% 100%
+      }
+      100% {
+        background-position: 20% 0%
+      }
+    }
+    @-moz-keyframes AnimationName {
+      0% {
+        background-position: 20% 0%
+      }
+      50% {
+        background-position: 81% 100%
+      }
+      100% {
+        background-position: 20% 0%
+      }
+    }
+    @keyframes AnimationName {
+      0% {
+        background-position: 20% 0%
+      }
+      50% {
+        background-position: 81% 100%
+      }
+      100% {
+        background-position: 20% 0%
+      }
+    }
+
+  }
+
+  .contpre small{
+    font-size:25px;
+  }
+
+  .contpre{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 68%;
+    margin-left: -125px;
+    margin-top: -75px;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: -2px;
+    text-align: center;
+    line-height: 35px;
+    font-family: "Comfortaa", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    position: absolute;
+    display: block;
+    //background: url(../img/ZKZg.gif) center center no-repeat;
+    background-size:41px;
+    margin: -16px 0 0 -16px;
+    width: 70px;
+    height: 70px;
+  }
+
+
 }
 
 
