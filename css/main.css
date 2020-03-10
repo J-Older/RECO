@@ -534,6 +534,7 @@ main #fifth .screen-item {
   padding: 0 0 0 200px;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 50px;
   flex-wrap: wrap;
   overflow: scroll;
 }
