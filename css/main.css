@@ -381,6 +381,7 @@ main #fifth {
   height: 100%;
   position: relative;
   display: flex;
+  overflow: visible;
   background: linear-gradient(221deg, #808080, #131925, #665d58);
   background-size: 600% 600%;
   -webkit-animation: AnimationName 52s ease infinite;
@@ -522,6 +523,8 @@ main #fifth .screen-item nav {
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 100px 0 0 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  padding: 20px;
 }
 @media (max-width: 1050px) {
   main #fifth .screen-item nav {
