@@ -156,7 +156,7 @@ main .menu-left .menu .open .hamburger::after {
   -webkit-transform: translateY(-1px) rotate(-90deg);
   transform: translateY(-1px) rotate(-90deg);
 }
-@media (min-width: 900px) {
+@media (min-width: 901px) {
   main .menu-left .menu .menu-toggle {
     display: none;
   }
@@ -427,7 +427,7 @@ main #fifth .screen-item {
   flex-wrap: wrap;
   overflow: scroll;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   main #fifth .screen-item {
     padding: 0 0 0 0;
   }
@@ -463,7 +463,7 @@ main #fifth .screen-item .name {
 }
 @media (max-width: 1050px) {
   main #fifth .screen-item .name {
-    width: 44% !important;
+    width: 44%;
     padding: 40px;
     background: #10101073;
     margin: 20px;
@@ -574,11 +574,6 @@ main #fifth .screen-item:first-child {
   display: none;
   justify-content: center;
   align-items: center;
-}
-@media (max-width: 768px) {
-  main #fifth .screen-item:first-child {
-    display: block;
-  }
 }
 main #fifth .screen-item:first-child .bgf::before {
   position: absolute;

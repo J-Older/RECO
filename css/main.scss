@@ -183,7 +183,7 @@ main {
         transform: translateY(-1px) rotate(-90deg);
       }
 
-      @media (min-width: 900px) {
+      @media (min-width: 901px) {
 
         .menu-toggle {
           display: none;
@@ -572,7 +572,7 @@ main {
       overflow: scroll;
 
 
-      @media (max-width: 768px) {
+      @media (max-width: 900px) {
         padding: 0 0 0 0;
       }
 
@@ -628,7 +628,7 @@ main {
         padding: 20px;
 
         @media (max-width: 1050px) {
-          width: 44% !important;
+          width: 44%;
           padding: 40px;
           background: #10101073;
           margin: 20px;
@@ -693,9 +693,6 @@ main {
         margin: 100px 0 0 0;
 
         @media (max-width: 1050px) {
-          //width: 100%;
-          //padding: 50px;
-
           width: 44%;
           padding: 40px;
           background: #10101073;
@@ -752,11 +749,11 @@ main {
       justify-content: center;
       align-items: center;
 
-      @media (max-width: 768px) {
-
-        display: block;
-
-      }
+      //@media (max-width: 768px) {
+      //
+      //  display: block;
+      //
+      //}
 
       .bgf::before {
         //width: 100%;
