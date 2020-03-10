@@ -91,12 +91,12 @@ body .contpre {
   align-items: center;
 }
 body img {
-  position: absolute;
   display: block;
   background-size: 41px;
   margin: -16px 0 0 -16px;
   width: 70px;
   height: 70px;
+  z-index: 2;
 }
 
 main {
