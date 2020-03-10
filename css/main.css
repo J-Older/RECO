@@ -20,6 +20,81 @@ body {
   height: 100%;
   overflow-x: scroll;
 }
+body #p_prldr {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(221deg, #808080, #131925, #665d58);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 52s ease infinite;
+  -moz-animation: AnimationName 52s ease infinite;
+  animation: AnimationName 52s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 20% 0;
+  }
+  50% {
+    background-position: 81% 100%;
+  }
+  100% {
+    background-position: 20% 0;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 20% 0;
+  }
+  50% {
+    background-position: 81% 100%;
+  }
+  100% {
+    background-position: 20% 0;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 20% 0;
+  }
+  50% {
+    background-position: 81% 100%;
+  }
+  100% {
+    background-position: 20% 0;
+  }
+}
+body #p_prldr .contpre {
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 68%;
+  margin-left: -125px;
+  margin-top: -75px;
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: -2px;
+  text-align: center;
+  line-height: 35px;
+  font-family: "Comfortaa", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #p_prldr .svg_anm {
+  display: block;
+  background-size: 41px;
+  margin: -16px 0 0 -16px;
+  width: 70px;
+  height: 70px;
+  z-index: 2;
+}
 
 main {
   width: 100%;
@@ -43,7 +118,7 @@ main .menu-left {
   flex-wrap: wrap;
   background: #00000085;
 }
-@media (max-width: 767px) {
+@media (max-width: 900px) {
   main .menu-left {
     background: transparent;
     width: 0;
@@ -54,7 +129,7 @@ main .menu-left .logo {
   height: 10%;
   text-align: center;
 }
-@media (max-width: 425px) {
+@media (max-width: 900px) {
   main .menu-left .logo {
     display: none;
   }
@@ -68,7 +143,7 @@ main .menu-left .menu {
   justify-content: center;
   align-items: center;
 }
-@media (max-width: 767px) {
+@media (max-width: 900px) {
   main .menu-left .menu {
     position: absolute;
     height: 100%;
@@ -94,7 +169,7 @@ main .menu-left .menu ul {
   justify-content: space-around;
   align-items: center;
 }
-@media (max-width: 767px) {
+@media (max-width: 900px) {
   main .menu-left .menu ul {
     display: none;
   }
@@ -120,7 +195,7 @@ main .menu-left .menu ul li a {
   font-size: 15px;
   font-family: "Comfortaa", sans-serif;
   font-weight: bold;
-  color: white;
+  color: #919191;
   transition: 0.4s;
   height: auto;
   padding: 0 0 0 10px;
@@ -156,7 +231,7 @@ main .menu-left .menu .open .hamburger::after {
   -webkit-transform: translateY(-1px) rotate(-90deg);
   transform: translateY(-1px) rotate(-90deg);
 }
-@media (min-width: 767px) {
+@media (min-width: 901px) {
   main .menu-left .menu .menu-toggle {
     display: none;
   }
@@ -203,10 +278,12 @@ main .line-status {
   position: fixed;
   z-index: 3;
   bottom: 25px;
+  margin-left: -60px;
 }
 @media (max-width: 767px) {
   main .line-status {
     display: flex;
+    margin: 0;
     transform: scale(0.7);
     left: -138px;
   }
@@ -324,7 +401,8 @@ main .wrapper .screen-item:first-child .bgf {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.2) border-box;
-  position: fixed;
+  position: absolute;
+  z-index: 1;
 }
 main .wrapper .screen-item:first-child .bgf::before {
   content: "";
@@ -355,6 +433,44 @@ main .wrapper .screen-item:nth-child(2) video {
 }
 main #right {
   height: 100%;
+  background: linear-gradient(221deg, #808080, #131925, #665d58);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 52s ease infinite;
+  -moz-animation: AnimationName 52s ease infinite;
+  animation: AnimationName 52s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 20% 0;
+  }
+  50% {
+    background-position: 81% 100%;
+  }
+  100% {
+    background-position: 20% 0;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 20% 0;
+  }
+  50% {
+    background-position: 81% 100%;
+  }
+  100% {
+    background-position: 20% 0;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 20% 0;
+  }
+  50% {
+    background-position: 81% 100%;
+  }
+  100% {
+    background-position: 20% 0;
+  }
 }
 main #right #video-container1 {
   width: 100%;
@@ -364,15 +480,10 @@ main #right .screen-item:first-child {
   overflow: hidden;
   height: 100%;
 }
-@media (max-width: 767px) {
-  main #right .screen-item:first-child .bgf {
-    position: fixed;
-  }
-}
 main #right .screen-item:nth-child(2) {
   overflow: hidden;
 }
-@media (max-width: 767px) {
+@media (max-width: 900px) {
   main #right .screen-item:nth-child(2) video {
     display: none;
   }
@@ -381,6 +492,45 @@ main #fifth {
   height: 100%;
   position: relative;
   display: flex;
+  overflow: visible;
+  background: linear-gradient(221deg, #808080, #131925e0, #665d58);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 52s ease infinite;
+  -moz-animation: AnimationName 52s ease infinite;
+  animation: AnimationName 52s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 20% 0;
+  }
+  50% {
+    background-position: 81% 100%;
+  }
+  100% {
+    background-position: 20% 0;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 20% 0;
+  }
+  50% {
+    background-position: 81% 100%;
+  }
+  100% {
+    background-position: 20% 0;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 20% 0;
+  }
+  50% {
+    background-position: 81% 100%;
+  }
+  100% {
+    background-position: 20% 0;
+  }
 }
 main #fifth .screen-item {
   padding: 0 0 0 200px;
@@ -389,21 +539,9 @@ main #fifth .screen-item {
   flex-wrap: wrap;
   overflow: scroll;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   main #fifth .screen-item {
     padding: 0 0 0 0;
-  }
-}
-main #fifth .screen-item video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  filter: brightness(50%) blur(5px);
-  transform: scale(1.02);
-}
-@media (max-width: 768px) {
-  main #fifth .screen-item video {
-    display: none;
   }
 }
 main #fifth .screen-item .logo {
@@ -430,10 +568,12 @@ main #fifth .screen-item .name {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 20%;
+  width: 24%;
   z-index: 2;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  padding: 20px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   main #fifth .screen-item .name {
     width: 44%;
     padding: 40px;
@@ -471,7 +611,7 @@ main #fifth .screen-item .name p {
   font-family: "Comfortaa", sans-serif;
   font-size: 15px;
   text-align: justify;
-  color: white;
+  color: #919191;
   width: 100%;
 }
 main #fifth .screen-item .name span {
@@ -494,8 +634,10 @@ main #fifth .screen-item nav {
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 100px 0 0 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  padding: 20px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   main #fifth .screen-item nav {
     width: 44%;
     padding: 40px;
@@ -525,7 +667,7 @@ main #fifth .screen-item nav {
 main #fifth .screen-item nav p {
   width: 100%;
   height: auto;
-  color: white;
+  color: #919191;
   font-family: "Comfortaa", sans-serif;
   font-size: 15px;
   text-align: justify;
@@ -546,11 +688,6 @@ main #fifth .screen-item:first-child {
   display: none;
   justify-content: center;
   align-items: center;
-}
-@media (max-width: 768px) {
-  main #fifth .screen-item:first-child {
-    display: block;
-  }
 }
 main #fifth .screen-item:first-child .bgf::before {
   position: absolute;

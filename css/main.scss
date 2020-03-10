@@ -28,6 +28,93 @@ body {
 
   //cursor: url(../img/minLogo.png), default;
 
+  #p_prldr{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom:0;
+    z-index: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(221deg, #808080, #131925, #665d58);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 52s ease infinite;
+    -moz-animation: AnimationName 52s ease infinite;
+    animation: AnimationName 52s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+      0% {
+        background-position: 20% 0
+      }
+      50% {
+        background-position: 81% 100%
+      }
+      100% {
+        background-position: 20% 0
+      }
+    }
+    @-moz-keyframes AnimationName {
+      0% {
+        background-position: 20% 0
+      }
+      50% {
+        background-position: 81% 100%
+      }
+      100% {
+        background-position: 20% 0
+      }
+    }
+    @keyframes AnimationName {
+      0% {
+        background-position: 20% 0
+      }
+      50% {
+        background-position: 81% 100%
+      }
+      100% {
+        background-position: 20% 0
+      }
+    }
+
+    .contpre{
+      width: 250px;
+      height: 100px;
+      position: absolute;
+      left: 50%;
+      top: 68%;
+      margin-left: -125px;
+      margin-top: -75px;
+      color: #fff;
+      font-size: 40px;
+      letter-spacing: -2px;
+      text-align: center;
+      line-height: 35px;
+      font-family: "Comfortaa", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .svg_anm {
+      display: block;
+      //background: url(../img/ZKZg.gif) center center no-repeat;
+      background-size:41px;
+      margin: -16px 0 0 -16px;
+      width: 70px;
+      height: 70px;
+      z-index: 2;
+    }
+
+  }
+
+
+
+
+
 }
 
 
@@ -54,7 +141,7 @@ main {
     //background: #0000005e;
     background: #00000085;
 
-    @media (max-width: 767px) {
+    @media (max-width: 900px) {
       background: transparent;
       width: 0;
 
@@ -66,7 +153,7 @@ main {
       height: 10%;
       text-align: center;
 
-      @media (max-width: 425px) {
+      @media (max-width: 900px) {
         display: none;
       }
 
@@ -82,7 +169,7 @@ main {
       justify-content: center;
       align-items: center;
 
-      @media (max-width: 767px) {
+      @media (max-width: 900px) {
         position: absolute;
         height: 100%;
         left: 0;
@@ -109,7 +196,7 @@ main {
         justify-content: space-around;
         align-items: center;
 
-        @media (max-width: 767px) {
+        @media (max-width: 900px) {
           display: none;
         }
 
@@ -136,7 +223,7 @@ main {
             font-size: 15px;
             font-family: "Comfortaa", sans-serif;
             font-weight: bold;
-            color: white;
+            color: #919191;
             transition: 0.4s;
             height: auto;
             padding: 0 0 0 10px;
@@ -183,7 +270,7 @@ main {
         transform: translateY(-1px) rotate(-90deg);
       }
 
-      @media (min-width: 767px) {
+      @media (min-width: 901px) {
 
         .menu-toggle {
           display: none;
@@ -249,12 +336,14 @@ main {
     position: fixed;
     z-index: 3;
     bottom: 25px;
+    margin-left: -60px;
 
     @media (max-width: 767px) {
       display: flex;
       //align-items: flex-end;
       //bottom: auto;
       //transform: rotate(90deg);
+      margin: 0;
       transform: scale(0.7);
       left: -138px;
       //height: 95vw;
@@ -403,7 +492,8 @@ main {
         width: 100%;
         height: 100%;
         background: hsla(0, 0%, 0%, 0.2) border-box;
-        position: fixed;
+        position: absolute;
+        z-index: 1;
         //transform: scale(1.1);
       }
 
@@ -458,7 +548,46 @@ main {
 
   #right {
     height: 100%;
-    //overflow: hidden;
+    background: linear-gradient(221deg, #808080, #131925, #665d58);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 52s ease infinite;
+    -moz-animation: AnimationName 52s ease infinite;
+    animation: AnimationName 52s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+      0% {
+        background-position: 20% 0
+      }
+      50% {
+        background-position: 81% 100%
+      }
+      100% {
+        background-position: 20% 0
+      }
+    }
+    @-moz-keyframes AnimationName {
+      0% {
+        background-position: 20% 0
+      }
+      50% {
+        background-position: 81% 100%
+      }
+      100% {
+        background-position: 20% 0
+      }
+    }
+    @keyframes AnimationName {
+      0% {
+        background-position: 20% 0
+      }
+      50% {
+        background-position: 81% 100%
+      }
+      100% {
+        background-position: 20% 0
+      }
+    }
 
     #video-container1 {
       width: 100%;
@@ -469,21 +598,21 @@ main {
       overflow: hidden;
       height: 100%;
 
-      @media (max-width: 767px) {
-
-        .bgf {
-          position: fixed;
-
-        }
-
-      }
+      //@media (max-width: 767px) {
+      //
+      //  .bgf {
+      //    position: fixed;
+      //
+      //  }
+      //
+      //}
 
     }
 
     .screen-item:nth-child(2) {
       overflow: hidden;
 
-      @media (max-width: 767px) {
+      @media (max-width: 900px) {
 
         video {
           //height: 100% !important;
@@ -515,9 +644,52 @@ main {
     height: 100%;
     position: relative;
     display: flex;
+    overflow: visible;
     //overflow: scroll;
     //align-items: center;
     //justify-content: center;
+
+    //background: linear-gradient(221deg, #808080, #131925, #665d58);
+    background: linear-gradient(221deg, #808080, #131925e0, #665d58);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 52s ease infinite;
+    -moz-animation: AnimationName 52s ease infinite;
+    animation: AnimationName 52s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+      0% {
+        background-position: 20% 0
+      }
+      50% {
+        background-position: 81% 100%
+      }
+      100% {
+        background-position: 20% 0
+      }
+    }
+    @-moz-keyframes AnimationName {
+      0% {
+        background-position: 20% 0
+      }
+      50% {
+        background-position: 81% 100%
+      }
+      100% {
+        background-position: 20% 0
+      }
+    }
+    @keyframes AnimationName {
+      0% {
+        background-position: 20% 0
+      }
+      50% {
+        background-position: 81% 100%
+      }
+      100% {
+        background-position: 20% 0
+      }
+    }
 
 
     .screen-item {
@@ -531,30 +703,30 @@ main {
       overflow: scroll;
 
 
-      @media (max-width: 768px) {
+      @media (max-width: 900px) {
         padding: 0 0 0 0;
       }
 
-      video {
-        position: fixed;
-        top: 0;
-        left: 0;
-        filter: brightness(50%) blur(5px);
-        transform: scale(1.02);
-      }
-
-      video {
-
-        @media (max-width: 768px) {
-          //height: 100% !important;
-          //width: auto !important;
-          //transform: scale(1.02);
-          //margin: 0;
-
-          display: none;
-
-        }
-      }
+      //video {
+      //  position: fixed;
+      //  top: 0;
+      //  left: 0;
+      //  filter: brightness(50%) blur(5px);
+      //  transform: scale(1.02);
+      //}
+      //
+      //video {
+      //
+      //  @media (max-width: 768px) {
+      //    //height: 100% !important;
+      //    //width: auto !important;
+      //    //transform: scale(1.02);
+      //    //margin: 0;
+      //
+      //    display: none;
+      //
+      //  }
+      //}
 
       .logo {
         width: 100%;
@@ -581,10 +753,13 @@ main {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        width: 20%;
+        width: 24%;
         z-index: 2;
 
-        @media (max-width: 1000px) {
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+        padding: 20px;
+
+        @media (max-width: 1050px) {
           width: 44%;
           padding: 40px;
           background: #10101073;
@@ -620,7 +795,7 @@ main {
           font-family: 'Comfortaa', sans-serif;
           font-size: 15px;
           text-align: justify;
-          color: white;
+          color: #919191;
           width: 100%;
         }
 
@@ -649,10 +824,10 @@ main {
         flex-wrap: wrap;
         margin: 100px 0 0 0;
 
-        @media (max-width: 1000px) {
-          //width: 100%;
-          //padding: 50px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+        padding: 20px;
 
+        @media (max-width: 1050px) {
           width: 44%;
           padding: 40px;
           background: #10101073;
@@ -681,7 +856,7 @@ main {
         p {
           width: 100%;
           height: auto;
-          color: white;
+          color: #919191;
           font-family: 'Comfortaa', sans-serif;
           font-size: 15px;
           text-align: justify;
@@ -709,11 +884,11 @@ main {
       justify-content: center;
       align-items: center;
 
-      @media (max-width: 768px) {
-
-        display: block;
-
-      }
+      //@media (max-width: 768px) {
+      //
+      //  display: block;
+      //
+      //}
 
       .bgf::before {
         //width: 100%;
