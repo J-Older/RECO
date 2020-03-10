@@ -25,7 +25,6 @@ body {
   overflow-x: scroll;
   //overflow: hidden;
 
-
   #p_prldr{
     position: fixed;
     left: 0;
@@ -107,10 +106,6 @@ body {
     }
 
   }
-
-
-
-
 
 }
 
@@ -794,6 +789,11 @@ main {
           text-align: justify;
           color: #919191;
           width: 100%;
+
+          .green-item {
+            display: inline;
+            color: yellowgreen;
+          }
         }
 
         span {

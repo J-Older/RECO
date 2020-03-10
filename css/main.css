@@ -612,6 +612,10 @@ main #fifth .screen-item .name p {
   color: #919191;
   width: 100%;
 }
+main #fifth .screen-item .name p .green-item {
+  display: inline;
+  color: yellowgreen;
+}
 main #fifth .screen-item .name span {
   width: 100%;
   display: flex;
