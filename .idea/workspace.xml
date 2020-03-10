@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="134ec0f4-ce6b-4c1e-8164-67871179fe42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
     </list>
     <list id="e56c28a9-54d9-46f9-a39a-3d85483e633c" name="Revert &quot;RECO ver. 3&quot;" comment="Revert &quot;RECO ver. 3&quot;&#10;&#10;This reverts commit 5db69936" />
@@ -70,8 +68,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="201">
-                  <caret line="755" column="9" lean-forward="true" selection-start-line="751" selection-start-column="8" selection-end-line="755" selection-end-column="9" />
+                <state relative-caret-position="218">
+                  <caret line="517" column="22" selection-start-line="517" selection-start-column="22" selection-end-line="517" selection-end-column="22" />
                   <folding>
                     <element signature="e#316#471#0" />
                     <element signature="e#1416#1462#0" />
@@ -229,14 +227,7 @@
       <workItem from="1582731296341" duration="8623000" />
       <workItem from="1582785239820" duration="8741000" />
       <workItem from="1583218205867" duration="22813000" />
-      <workItem from="1583823759437" duration="3975000" />
-    </task>
-    <task id="LOCAL-00024" summary="RECO ver. 2">
-      <created>1582742390350</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1582742390350</updated>
+      <workItem from="1583823759437" duration="4273000" />
     </task>
     <task id="LOCAL-00025" summary="RECO ver. 2">
       <created>1582743293735</created>
@@ -574,11 +565,18 @@
       <option name="project" value="LOCAL" />
       <updated>1583827154045</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="RECO ver. 3">
+      <created>1583827809322</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1583827809323</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110750000" />
+    <option name="totallyTimeSpent" value="111048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -737,8 +735,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="755" column="9" lean-forward="true" selection-start-line="751" selection-start-column="8" selection-end-line="755" selection-end-column="9" />
+        <state relative-caret-position="218">
+          <caret line="517" column="22" selection-start-line="517" selection-start-column="22" selection-end-line="517" selection-end-column="22" />
           <folding>
             <element signature="e#316#471#0" />
             <element signature="e#1416#1462#0" />
