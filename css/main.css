@@ -577,8 +577,8 @@ main #right .screen-item:nth-child(2) div:nth-child(2) img {
 @media (max-width: 900px) {
   main #right .screen-item:nth-child(2) div:nth-child(2) img {
     filter: brightness(0.5);
-    height: 100%;
     width: auto;
+    height: 100%;
   }
 }
 main #right .screen-item:nth-child(3) {
@@ -671,11 +671,17 @@ main #right .screen-item:nth-child(3) .about {
     width: 100%;
     overflow: scroll;
     z-index: 3;
+    color: white;
   }
 }
 main #right .screen-item:nth-child(3) .about h1 {
   font-family: "Comfortaa", sans-serif;
   color: darkolivegreen;
+}
+@media (max-width: 900px) {
+  main #right .screen-item:nth-child(3) .about h1 {
+    color: white;
+  }
 }
 main #right .screen-item:nth-child(3) .about p {
   display: flex;
@@ -687,6 +693,11 @@ main #right .screen-item:nth-child(3) .about p {
   color: darkolivegreen;
   width: 100%;
   text-align: justify;
+}
+@media (max-width: 900px) {
+  main #right .screen-item:nth-child(3) .about p {
+    color: white;
+  }
 }
 main #fifth {
   height: 100%;

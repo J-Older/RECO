@@ -695,8 +695,8 @@ main {
 
           @media (max-width: 900px) {
             filter: brightness(0.5);
-            height: 100%;
             width: auto;
+            height: 100%;
           }
 
         }
@@ -764,6 +764,7 @@ main {
 
         @media (max-width: 900px) {
           width: 100%;
+
         }
       }
 
@@ -805,12 +806,18 @@ main {
           width: 100%;
           overflow: scroll;
           z-index: 3;
+          color: white;
 
         }
 
         h1 {
           font-family: 'Comfortaa', sans-serif;
           color: darkolivegreen;
+
+          @media (max-width: 900px) {
+            color: white;
+          }
+
         }
 
 
@@ -824,6 +831,10 @@ main {
           color: darkolivegreen;
           width: 100%;
           text-align: justify;
+
+          @media (max-width: 900px) {
+            color: white;
+          }
         }
       }
 
