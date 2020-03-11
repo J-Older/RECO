@@ -25,15 +25,12 @@ body {
   overflow-x: scroll;
   //overflow: hidden;
 
-
-  //cursor: url(../img/minLogo.png), default;
-
-  #p_prldr{
+  #p_prldr {
     position: fixed;
     left: 0;
     top: 0;
-    right:0;
-    bottom:0;
+    right: 0;
+    bottom: 0;
     z-index: 30;
     display: flex;
     justify-content: center;
@@ -48,73 +45,66 @@ body {
 
     @-webkit-keyframes AnimationName {
       0% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
       50% {
         background-position: 81% 100%
       }
       100% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
     }
     @-moz-keyframes AnimationName {
       0% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
       50% {
         background-position: 81% 100%
       }
       100% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
     }
     @keyframes AnimationName {
       0% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
       50% {
         background-position: 81% 100%
       }
       100% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
     }
 
-  }
+    .contpre {
+      width: 250px;
+      height: 100px;
+      position: absolute;
+      left: 50%;
+      top: 68%;
+      margin-left: -125px;
+      margin-top: -75px;
+      color: #fff;
+      font-size: 21px;
+      text-align: center;
+      font-family: "Comfortaa", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-  .contpre small{
-    font-size:25px;
-  }
+    .svg_anm {
+      display: block;
+      //background: url(../img/ZKZg.gif) center center no-repeat;
+      background-size: 41px;
+      //margin: -16px 0 0 -16px;
+      width: 100px;
+      height: 70px;
+      z-index: 2;
+    }
 
-  .contpre{
-    width: 250px;
-    height: 100px;
-    position: absolute;
-    left: 50%;
-    top: 68%;
-    margin-left: -125px;
-    margin-top: -75px;
-    color: #fff;
-    font-size: 40px;
-    letter-spacing: -2px;
-    text-align: center;
-    line-height: 35px;
-    font-family: "Comfortaa", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
-
-  img {
-    display: block;
-    //background: url(../img/ZKZg.gif) center center no-repeat;
-    background-size:41px;
-    margin: -16px 0 0 -16px;
-    width: 70px;
-    height: 70px;
-    z-index: 2;
-  }
-
 
 }
 
@@ -335,7 +325,7 @@ main {
 
   .line-status {
     position: fixed;
-    z-index: 3;
+    z-index: 10;
     bottom: 25px;
     margin-left: -60px;
 
@@ -357,6 +347,7 @@ main {
       width: 120px;
       border-bottom: 1px solid white;
       float: left;
+      font-size: 10px;
       font-family: "Comfortaa", sans-serif;
 
       &:first-child {
@@ -383,15 +374,15 @@ main {
         position: absolute;
         right: -4px;
         bottom: -4px;
-        width: 8px;
-        height: 8px;
+        width: 7px;
+        height: 7px;
         background: white;
         z-index: 1;
         border-radius: 50%;
       }
 
       &:hover:after {
-        transform: scale(1.7);
+        transform: scale(1.4);
         background: yellowgreen;
       }
     }
@@ -448,25 +439,6 @@ main {
         height: auto;
         //transform: scale(1.01);
         //margin: 0 0 0 10px;
-      }
-
-      p {
-        position: absolute;
-        z-index: 3;
-        font-family: 'Comfortaa', sans-serif;
-        font-size: 35px;
-        margin: 0;
-        color: white;
-
-        border-radius: 50%;
-        height: 35px;
-        text-align: center;
-        width: 35px;
-        background: darkred;
-      }
-
-      img {
-        z-index: 2;
       }
 
 
@@ -551,6 +523,7 @@ main {
     height: 100%;
     background: linear-gradient(221deg, #808080, #131925, #665d58);
     background-size: 600% 600%;
+    flex-wrap: wrap;
 
     -webkit-animation: AnimationName 52s ease infinite;
     -moz-animation: AnimationName 52s ease infinite;
@@ -558,74 +531,176 @@ main {
 
     @-webkit-keyframes AnimationName {
       0% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
       50% {
         background-position: 81% 100%
       }
       100% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
     }
     @-moz-keyframes AnimationName {
       0% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
       50% {
         background-position: 81% 100%
       }
       100% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
     }
     @keyframes AnimationName {
       0% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
       50% {
         background-position: 81% 100%
       }
       100% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
     }
 
-    #video-container1 {
-      width: 100%;
-      height: 100%;
+    .screen-item {
+      overflow: hidden;
     }
 
     .screen-item:first-child {
       overflow: hidden;
       height: 100%;
+      z-index: 3;
 
-      //@media (max-width: 767px) {
-      //
-      //  .bgf {
-      //    position: fixed;
-      //
-      //  }
-      //
-      //}
+      img {
+        z-index: 3;
+      }
 
     }
 
     .screen-item:nth-child(2) {
-      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      background: linear-gradient(251deg, #625b10, #9acd32, #c1f261, #86c82a);
+      background-size: 800% 800%;
+
+      -webkit-animation: AnimationName 33s ease infinite;
+      -moz-animation: AnimationName 33s ease infinite;
+      animation: AnimationName 33s ease infinite;
+
+      @-webkit-keyframes AnimationName {
+        0% {
+          background-position: 58% 0
+        }
+        50% {
+          background-position: 43% 100%
+        }
+        100% {
+          background-position: 58% 0
+        }
+      }
+      @-moz-keyframes AnimationName {
+        0% {
+          background-position: 58% 0
+        }
+        50% {
+          background-position: 43% 100%
+        }
+        100% {
+          background-position: 58% 0
+        }
+      }
+      @keyframes AnimationName {
+        0% {
+          background-position: 58% 0
+        }
+        50% {
+          background-position: 43% 100%
+        }
+        100% {
+          background-position: 58% 0
+        }
+      }
+
+
+      div {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+
+        @media (max-width: 900px) {
+          width: 100%;
+        }
+      }
+
+
+      .about {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0 0 0 230px;
+        background: linear-gradient(68deg, #151515, transparent);
+
+        @media (max-width: 900px) {
+          padding: 30px;
+          width: 100%;
+          overflow: scroll;
+          z-index: 3;
+
+        }
+
+        h1 {
+          font-family: 'Comfortaa', sans-serif;
+          color: white;
+        }
+
+
+        p {
+          display: flex;
+          align-items: center;
+          z-index: 3;
+          font-size: 15px;
+          font-family: 'Comfortaa', sans-serif;
+          margin: 0;
+          color: white;
+          width: 100%;
+          text-align: justify;
+        }
+      }
+
+      div:nth-child(2) {
+        position: relative;
+        background: linear-gradient(110deg, transparent, #151515);
+
+        @media (max-width: 900px) {
+          background: unset;
+          position: absolute;
+        }
+
+        img {
+          position: absolute;
+          z-index: 2;
+          width: 100%;
+
+          @media (max-width: 900px) {
+            filter: brightness(0.5);
+            height: 100%;
+            width: auto;
+          }
+
+        }
+      }
 
       @media (max-width: 900px) {
 
-        video {
-          //height: 100% !important;
-          //width: auto !important;
-          //transform: scale(1.02);
-          //margin:0;
-          display: none;
-        }
 
       }
 
     }
+
 
   }
 
@@ -650,7 +725,8 @@ main {
     //align-items: center;
     //justify-content: center;
 
-    background: linear-gradient(221deg, #808080, #131925, #665d58);
+    //background: linear-gradient(221deg, #808080, #131925, #665d58);
+    background: linear-gradient(221deg, #808080, #131925e0, #665d58);
     background-size: 600% 600%;
 
     -webkit-animation: AnimationName 52s ease infinite;
@@ -659,35 +735,35 @@ main {
 
     @-webkit-keyframes AnimationName {
       0% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
       50% {
         background-position: 81% 100%
       }
       100% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
     }
     @-moz-keyframes AnimationName {
       0% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
       50% {
         background-position: 81% 100%
       }
       100% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
     }
     @keyframes AnimationName {
       0% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
       50% {
         background-position: 81% 100%
       }
       100% {
-        background-position: 20% 0%
+        background-position: 20% 0
       }
     }
 
@@ -696,7 +772,7 @@ main {
       padding: 0 0 0 200px;
       display: flex;
       justify-content: space-around;
-      //align-items: center;
+      padding-bottom: 50px;
       flex-wrap: wrap;
 
 
@@ -797,6 +873,11 @@ main {
           text-align: justify;
           color: #919191;
           width: 100%;
+
+          .green-item {
+            display: inline;
+            color: yellowgreen;
+          }
         }
 
         span {

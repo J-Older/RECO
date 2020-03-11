@@ -73,9 +73,10 @@ $(function () {
 });
 
 
+
 $(window).on('load', function () {
     var $preloader = $('#p_prldr'),
         $svg_anm   = $preloader.find('.svg_anm');
     // $svg_anm.fadeOut();
-    $preloader.delay(5000).fadeOut('slow');
+    $preloader.delay(1000).fadeOut('slow');
 });
