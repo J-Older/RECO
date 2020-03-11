@@ -469,7 +469,7 @@ main #right .screen-item:first-child img {
 main #right .screen-item:nth-child(2) {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: start;
   background: linear-gradient(251deg, #625b10, #9acd32, #c1f261, #86c82a);
   background-size: 800% 800%;
   -webkit-animation: AnimationName 33s ease infinite;
@@ -553,6 +553,8 @@ main #right .screen-item:nth-child(2) .about p {
 main #right .screen-item:nth-child(2) div:nth-child(2) {
   position: relative;
   background: linear-gradient(110deg, transparent, #151515);
+  overflow: hidden;
+  justify-content: flex-start;
 }
 @media (max-width: 900px) {
   main #right .screen-item:nth-child(2) div:nth-child(2) {
@@ -563,7 +565,7 @@ main #right .screen-item:nth-child(2) div:nth-child(2) {
 main #right .screen-item:nth-child(2) div:nth-child(2) img {
   position: absolute;
   z-index: 2;
-  width: 100%;
+  height: 100%;
 }
 @media (max-width: 900px) {
   main #right .screen-item:nth-child(2) div:nth-child(2) img {

@@ -582,7 +582,7 @@ main {
     .screen-item:nth-child(2) {
       display: flex;
       align-items: center;
-      justify-content: flex-end;
+      justify-content: start;
 
       background: linear-gradient(251deg, #625b10, #9acd32, #c1f261, #86c82a);
       background-size: 800% 800%;
@@ -675,6 +675,8 @@ main {
       div:nth-child(2) {
         position: relative;
         background: linear-gradient(110deg, transparent, #151515);
+        overflow: hidden;
+        justify-content: flex-start;
 
         @media (max-width: 900px) {
           background: unset;
@@ -684,7 +686,7 @@ main {
         img {
           position: absolute;
           z-index: 2;
-          width: 100%;
+          height: 100%;
 
           @media (max-width: 900px) {
             filter: brightness(0.5);
