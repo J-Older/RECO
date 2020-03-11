@@ -644,7 +644,12 @@ main {
         flex-wrap: wrap;
         justify-content: flex-start;
         padding: 0 0 0 230px;
-        background: linear-gradient(68deg, #151515, transparent);
+
+        background: -moz-linear-gradient(left,  rgba(0,0,0,0.58) 0%, rgba(0,0,0,0.15) 37%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  rgba(0,0,0,0.58) 0%,rgba(0,0,0,0.15) 37%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.22) 74%,rgba(0,0,0,0) 100%,rgba(0,0,0,0) 100%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+
 
         @media (max-width: 900px) {
           padding: 30px;
@@ -675,7 +680,6 @@ main {
 
       div:nth-child(2) {
         position: relative;
-        background: linear-gradient(110deg, transparent, #151515);
         overflow: hidden;
         justify-content: flex-start;
 
@@ -701,6 +705,126 @@ main {
       @media (max-width: 900px) {
 
 
+      }
+
+    }
+
+    .screen-item:nth-child(3) {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      position: relative;
+
+      background: linear-gradient(251deg, #625b10, #9acd32, #c1f261, #86c82a);
+      background-size: 800% 800%;
+
+      -webkit-animation: AnimationName 33s ease infinite;
+      -moz-animation: AnimationName 33s ease infinite;
+      animation: AnimationName 33s ease infinite;
+
+      @-webkit-keyframes AnimationName {
+        0% {
+          background-position: 58% 0
+        }
+        50% {
+          background-position: 43% 100%
+        }
+        100% {
+          background-position: 58% 0
+        }
+      }
+      @-moz-keyframes AnimationName {
+        0% {
+          background-position: 58% 0
+        }
+        50% {
+          background-position: 43% 100%
+        }
+        100% {
+          background-position: 58% 0
+        }
+      }
+      @keyframes AnimationName {
+        0% {
+          background-position: 58% 0
+        }
+        50% {
+          background-position: 43% 100%
+        }
+        100% {
+          background-position: 58% 0
+        }
+      }
+
+      div {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+
+        @media (max-width: 900px) {
+          width: 100%;
+        }
+      }
+
+      div:nth-child(1) {
+        position: relative;
+        //background: linear-gradient(110deg, transparent, #151515);
+        overflow: hidden;
+        justify-content: flex-end;
+
+        @media (max-width: 900px) {
+          background: unset;
+          position: absolute;
+        }
+
+        img {
+          position: absolute;
+          z-index: 2;
+          height: 100%;
+          filter: brightness(0.9);
+
+          @media (max-width: 900px) {
+            filter: brightness(0.5);
+            height: 100%;
+            width: auto;
+          }
+
+        }
+      }
+
+      .about {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        //padding: 0 0 0 230px;
+        padding: 50px;
+        //background: linear-gradient(68deg, #151515, transparent);
+
+        @media (max-width: 900px) {
+          padding: 30px;
+          width: 100%;
+          overflow: scroll;
+          z-index: 3;
+
+        }
+
+        h1 {
+          font-family: 'Comfortaa', sans-serif;
+          color: darkolivegreen;
+        }
+
+
+        p {
+          display: flex;
+          align-items: center;
+          z-index: 3;
+          font-size: 15px;
+          font-family: 'Comfortaa', sans-serif;
+          margin: 0;
+          color: darkolivegreen;
+          width: 100%;
+          text-align: justify;
+        }
       }
 
     }
