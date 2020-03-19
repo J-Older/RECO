@@ -17,7 +17,7 @@ $('.menu-toggle').click(function () {
         $(blur).removeAttr('style') :
         $(blur).attr('style',
             'filter: blur(10px);' +
-            'position: fixed !important;' +
+            'position: fixed !important;'
             // 'transform: scale(1.5);'
         );
 
