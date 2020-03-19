@@ -25,12 +25,12 @@ body {
   overflow-x: scroll;
   //overflow: hidden;
 
-  #p_prldr{
+  #p_prldr {
     position: fixed;
     left: 0;
     top: 0;
-    right:0;
-    bottom:0;
+    right: 0;
+    bottom: 0;
     z-index: 30;
     display: flex;
     justify-content: center;
@@ -97,7 +97,7 @@ body {
     .svg_anm {
       display: block;
       //background: url(../img/ZKZg.gif) center center no-repeat;
-      background-size:41px;
+      background-size: 41px;
       //margin: -16px 0 0 -16px;
       width: 100px;
       height: 70px;
@@ -284,6 +284,7 @@ main {
 
     }
 
+
   }
 
   .menu-links {
@@ -321,11 +322,13 @@ main {
       }
 
     }
+
+
   }
 
   .line-status {
     position: fixed;
-    z-index: 3;
+    z-index: 10;
     bottom: 25px;
     margin-left: -60px;
 
@@ -441,25 +444,6 @@ main {
         //margin: 0 0 0 10px;
       }
 
-      p {
-        position: absolute;
-        z-index: 3;
-        font-family: 'Comfortaa', sans-serif;
-        font-size: 35px;
-        margin: 0;
-        color: white;
-
-        border-radius: 50%;
-        height: 35px;
-        text-align: center;
-        width: 35px;
-        background: darkred;
-      }
-
-      img {
-        z-index: 2;
-      }
-
 
     }
 
@@ -542,6 +526,7 @@ main {
     height: 100%;
     background: linear-gradient(221deg, #808080, #131925, #665d58);
     background-size: 600% 600%;
+    flex-wrap: wrap;
 
     -webkit-animation: AnimationName 52s ease infinite;
     -moz-animation: AnimationName 52s ease infinite;
@@ -581,42 +566,283 @@ main {
       }
     }
 
-    #video-container1 {
-      width: 100%;
-      height: 100%;
+    .screen-item {
+      overflow: hidden;
+
     }
 
     .screen-item:first-child {
       overflow: hidden;
       height: 100%;
+      z-index: 3;
 
-      //@media (max-width: 767px) {
-      //
-      //  .bgf {
-      //    position: fixed;
-      //
-      //  }
-      //
-      //}
+      img {
+        z-index: 3;
+      }
 
     }
 
     .screen-item:nth-child(2) {
-      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      position: relative;
+
+      background: linear-gradient(251deg, #625b10, #9acd32, #c1f261, #86c82a);
+      background-size: 800% 800%;
+
+      -webkit-animation: AnimationName 33s ease infinite;
+      -moz-animation: AnimationName 33s ease infinite;
+      animation: AnimationName 33s ease infinite;
+
+      @-webkit-keyframes AnimationName {
+        0% {
+          background-position: 58% 0
+        }
+        50% {
+          background-position: 43% 100%
+        }
+        100% {
+          background-position: 58% 0
+        }
+      }
+      @-moz-keyframes AnimationName {
+        0% {
+          background-position: 58% 0
+        }
+        50% {
+          background-position: 43% 100%
+        }
+        100% {
+          background-position: 58% 0
+        }
+      }
+      @keyframes AnimationName {
+        0% {
+          background-position: 58% 0
+        }
+        50% {
+          background-position: 43% 100%
+        }
+        100% {
+          background-position: 58% 0
+        }
+      }
+
+
+      div {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+
+        @media (max-width: 900px) {
+          width: 100%;
+        }
+      }
+
+
+      .about {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0 0 0 230px;
+
+        background: -moz-linear-gradient(left,  rgba(0,0,0,0.58) 0%, rgba(0,0,0,0.15) 37%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  rgba(0,0,0,0.58) 0%,rgba(0,0,0,0.15) 37%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.22) 74%,rgba(0,0,0,0) 100%,rgba(0,0,0,0) 100%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+
+
+        @media (max-width: 900px) {
+          padding: 30px;
+          width: 100%;
+          overflow: scroll;
+          z-index: 3;
+
+        }
+
+        h1 {
+          font-family: 'Comfortaa', sans-serif;
+          color: white;
+        }
+
+
+        p {
+          display: flex;
+          align-items: center;
+          z-index: 3;
+          font-size: 15px;
+          font-family: 'Comfortaa', sans-serif;
+          margin: 0;
+          color: white;
+          width: 100%;
+          text-align: justify;
+        }
+      }
+
+      div:nth-child(2) {
+        position: relative;
+        overflow: hidden;
+        justify-content: flex-start;
+
+        @media (max-width: 900px) {
+          background: unset;
+          position: absolute;
+        }
+
+        img {
+          position: absolute;
+          z-index: 2;
+          height: 100%;
+
+          @media (max-width: 900px) {
+            filter: brightness(0.5);
+            width: auto;
+            height: 100%;
+          }
+
+        }
+      }
 
       @media (max-width: 900px) {
 
-        video {
-          //height: 100% !important;
-          //width: auto !important;
-          //transform: scale(1.02);
-          //margin:0;
-          display: none;
-        }
 
       }
 
     }
+
+    .screen-item:nth-child(3) {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      position: relative;
+
+      background: linear-gradient(251deg, #625b10, #9acd32, #c1f261, #86c82a);
+      background-size: 800% 800%;
+
+      -webkit-animation: AnimationName 33s ease infinite;
+      -moz-animation: AnimationName 33s ease infinite;
+      animation: AnimationName 33s ease infinite;
+
+      @-webkit-keyframes AnimationName {
+        0% {
+          background-position: 58% 0
+        }
+        50% {
+          background-position: 43% 100%
+        }
+        100% {
+          background-position: 58% 0
+        }
+      }
+      @-moz-keyframes AnimationName {
+        0% {
+          background-position: 58% 0
+        }
+        50% {
+          background-position: 43% 100%
+        }
+        100% {
+          background-position: 58% 0
+        }
+      }
+      @keyframes AnimationName {
+        0% {
+          background-position: 58% 0
+        }
+        50% {
+          background-position: 43% 100%
+        }
+        100% {
+          background-position: 58% 0
+        }
+      }
+
+      div {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+
+        @media (max-width: 900px) {
+          width: 100%;
+
+        }
+      }
+
+      div:nth-child(1) {
+        position: relative;
+        //background: linear-gradient(110deg, transparent, #151515);
+        overflow: hidden;
+        justify-content: flex-end;
+
+        @media (max-width: 900px) {
+          background: unset;
+          position: absolute;
+        }
+
+        img {
+          position: absolute;
+          z-index: 2;
+          height: 100%;
+          filter: brightness(0.9);
+
+          @media (max-width: 900px) {
+            filter: brightness(0.5);
+            height: 100%;
+            width: auto;
+          }
+
+        }
+      }
+
+      .about {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        //padding: 0 0 0 230px;
+        padding: 50px;
+        //background: linear-gradient(68deg, #151515, transparent);
+
+        @media (max-width: 900px) {
+          padding: 30px;
+          width: 100%;
+          overflow: scroll;
+          z-index: 3;
+          color: white;
+
+        }
+
+        h1 {
+          font-family: 'Comfortaa', sans-serif;
+          color: darkolivegreen;
+
+          @media (max-width: 900px) {
+            color: white;
+          }
+
+        }
+
+
+        p {
+          display: flex;
+          align-items: center;
+          z-index: 3;
+          font-size: 15px;
+          font-family: 'Comfortaa', sans-serif;
+          margin: 0;
+          color: darkolivegreen;
+          width: 100%;
+          text-align: justify;
+
+          @media (max-width: 900px) {
+            color: white;
+          }
+        }
+      }
+
+    }
+
 
   }
 

@@ -273,7 +273,7 @@ main .menu-links a:hover {
 }
 main .line-status {
   position: fixed;
-  z-index: 3;
+  z-index: 10;
   bottom: 25px;
   margin-left: -60px;
 }
@@ -367,22 +367,6 @@ main .wrapper .screen-item video {
   width: 100%;
   height: auto;
 }
-main .wrapper .screen-item p {
-  position: absolute;
-  z-index: 3;
-  font-family: "Comfortaa", sans-serif;
-  font-size: 35px;
-  margin: 0;
-  color: white;
-  border-radius: 50%;
-  height: 35px;
-  text-align: center;
-  width: 35px;
-  background: darkred;
-}
-main .wrapper .screen-item img {
-  z-index: 2;
-}
 main .wrapper .screen-item:first-child {
   position: relative;
   display: flex;
@@ -433,6 +417,7 @@ main #right {
   height: 100%;
   background: linear-gradient(221deg, #808080, #131925, #665d58);
   background-size: 600% 600%;
+  flex-wrap: wrap;
   -webkit-animation: AnimationName 52s ease infinite;
   -moz-animation: AnimationName 52s ease infinite;
   animation: AnimationName 52s ease infinite;
@@ -470,20 +455,248 @@ main #right {
     background-position: 20% 0;
   }
 }
-main #right #video-container1 {
-  width: 100%;
-  height: 100%;
+main #right .screen-item {
+  overflow: hidden;
 }
 main #right .screen-item:first-child {
   overflow: hidden;
   height: 100%;
+  z-index: 3;
+}
+main #right .screen-item:first-child img {
+  z-index: 3;
 }
 main #right .screen-item:nth-child(2) {
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  background: linear-gradient(251deg, #625b10, #9acd32, #c1f261, #86c82a);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 33s ease infinite;
+  -moz-animation: AnimationName 33s ease infinite;
+  animation: AnimationName 33s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 58% 0;
+  }
+  50% {
+    background-position: 43% 100%;
+  }
+  100% {
+    background-position: 58% 0;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 58% 0;
+  }
+  50% {
+    background-position: 43% 100%;
+  }
+  100% {
+    background-position: 58% 0;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 58% 0;
+  }
+  50% {
+    background-position: 43% 100%;
+  }
+  100% {
+    background-position: 58% 0;
+  }
+}
+main #right .screen-item:nth-child(2) div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  height: 100%;
 }
 @media (max-width: 900px) {
-  main #right .screen-item:nth-child(2) video {
-    display: none;
+  main #right .screen-item:nth-child(2) div {
+    width: 100%;
+  }
+}
+main #right .screen-item:nth-child(2) .about {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0 0 0 230px;
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.58) 0%, rgba(0, 0, 0, 0.15) 37%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.58) 0%, rgba(0, 0, 0, 0.15) 37%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.22) 74%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#94000000", endColorstr="#00000000",GradientType=1 );
+  /* IE6-9 */
+}
+@media (max-width: 900px) {
+  main #right .screen-item:nth-child(2) .about {
+    padding: 30px;
+    width: 100%;
+    overflow: scroll;
+    z-index: 3;
+  }
+}
+main #right .screen-item:nth-child(2) .about h1 {
+  font-family: "Comfortaa", sans-serif;
+  color: white;
+}
+main #right .screen-item:nth-child(2) .about p {
+  display: flex;
+  align-items: center;
+  z-index: 3;
+  font-size: 15px;
+  font-family: "Comfortaa", sans-serif;
+  margin: 0;
+  color: white;
+  width: 100%;
+  text-align: justify;
+}
+main #right .screen-item:nth-child(2) div:nth-child(2) {
+  position: relative;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+@media (max-width: 900px) {
+  main #right .screen-item:nth-child(2) div:nth-child(2) {
+    background: unset;
+    position: absolute;
+  }
+}
+main #right .screen-item:nth-child(2) div:nth-child(2) img {
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+}
+@media (max-width: 900px) {
+  main #right .screen-item:nth-child(2) div:nth-child(2) img {
+    filter: brightness(0.5);
+    width: auto;
+    height: 100%;
+  }
+}
+main #right .screen-item:nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  background: linear-gradient(251deg, #625b10, #9acd32, #c1f261, #86c82a);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 33s ease infinite;
+  -moz-animation: AnimationName 33s ease infinite;
+  animation: AnimationName 33s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 58% 0;
+  }
+  50% {
+    background-position: 43% 100%;
+  }
+  100% {
+    background-position: 58% 0;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 58% 0;
+  }
+  50% {
+    background-position: 43% 100%;
+  }
+  100% {
+    background-position: 58% 0;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 58% 0;
+  }
+  50% {
+    background-position: 43% 100%;
+  }
+  100% {
+    background-position: 58% 0;
+  }
+}
+main #right .screen-item:nth-child(3) div {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+@media (max-width: 900px) {
+  main #right .screen-item:nth-child(3) div {
+    width: 100%;
+  }
+}
+main #right .screen-item:nth-child(3) div:nth-child(1) {
+  position: relative;
+  overflow: hidden;
+  justify-content: flex-end;
+}
+@media (max-width: 900px) {
+  main #right .screen-item:nth-child(3) div:nth-child(1) {
+    background: unset;
+    position: absolute;
+  }
+}
+main #right .screen-item:nth-child(3) div:nth-child(1) img {
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  filter: brightness(0.9);
+}
+@media (max-width: 900px) {
+  main #right .screen-item:nth-child(3) div:nth-child(1) img {
+    filter: brightness(0.5);
+    height: 100%;
+    width: auto;
+  }
+}
+main #right .screen-item:nth-child(3) .about {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 50px;
+}
+@media (max-width: 900px) {
+  main #right .screen-item:nth-child(3) .about {
+    padding: 30px;
+    width: 100%;
+    overflow: scroll;
+    z-index: 3;
+    color: white;
+  }
+}
+main #right .screen-item:nth-child(3) .about h1 {
+  font-family: "Comfortaa", sans-serif;
+  color: darkolivegreen;
+}
+@media (max-width: 900px) {
+  main #right .screen-item:nth-child(3) .about h1 {
+    color: white;
+  }
+}
+main #right .screen-item:nth-child(3) .about p {
+  display: flex;
+  align-items: center;
+  z-index: 3;
+  font-size: 15px;
+  font-family: "Comfortaa", sans-serif;
+  margin: 0;
+  color: darkolivegreen;
+  width: 100%;
+  text-align: justify;
+}
+@media (max-width: 900px) {
+  main #right .screen-item:nth-child(3) .about p {
+    color: white;
   }
 }
 main #fifth {

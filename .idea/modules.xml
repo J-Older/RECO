@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/RECOSite.iml" filepath="$PROJECT_DIR$/.idea/RECOSite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/RECO.iml" filepath="$PROJECT_DIR$/.idea/RECO.iml" />
     </modules>
   </component>
 </project>

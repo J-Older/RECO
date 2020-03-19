@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="134ec0f4-ce6b-4c1e-8164-67871179fe42" name="Default Changelist" comment="">
+    <list default="true" id="4aeda1a6-3452-4b5f-8f99-cf0e569ebe6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/RECO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/RECOSite.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace-Home-PC.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
@@ -9,8 +17,8 @@
       <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem.html" beforeDir="false" />
     </list>
-    <list id="e56c28a9-54d9-46f9-a39a-3d85483e633c" name="Revert &quot;RECO ver. 3&quot;" comment="Revert &quot;RECO ver. 3&quot;&#10;&#10;This reverts commit 5db69936" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,39 +34,41 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47442245">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="207" selection-start-line="207" selection-end-line="207" />
+                <state relative-caret-position="204">
+                  <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="80" selection-end-column="10" />
                   <folding>
                     <element signature="n#head#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#2;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#a#3;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#animateTransform#0;n#path#0;n#svg#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#animateTransform#0;n#path#1;n#svg#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#animateTransform#0;n#path#2;n#svg#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/about.html">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/us.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="236" selection-start-line="236" selection-end-line="280" />
+                <state relative-caret-position="68">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
                   <folding>
-                    <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#animateTransform#0;n#path#0;n#svg#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#animateTransform#0;n#path#1;n#svg#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#animateTransform#0;n#path#2;n#svg#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#head#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -68,36 +78,70 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/main.js">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="78" column="4" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="26" />
+                <state relative-caret-position="200">
+                  <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="287" selection-end-column="3" />
                   <folding>
-                    <element signature="e#259#911#0" />
-                    <element signature="e#930#2118#0" />
-                    <marker date="1583870121776" expanded="false" signature="2251:2270" ph="..." />
+                    <element signature="e#433#2087#0" />
+                    <element signature="e#1502#1852#0" />
+                    <element signature="e#1867#2082#0" />
+                    <element signature="e#2277#5420#0" />
+                    <element signature="e#2522#2577#0" />
+                    <element signature="e#2590#2770#0" />
+                    <element signature="e#2782#5414#0" />
+                    <element signature="e#5436#6123#0" />
+                    <element signature="e#6140#7678#0" />
+                    <element signature="e#7692#9560#0" />
+                    <element signature="e#9664#16711#0" />
+                    <element signature="e#16775#23212#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/neomorph.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="98">
+                  <caret line="180" lean-forward="true" selection-start-line="180" selection-end-line="180" />
+                  <folding>
+                    <element signature="e#973#1235#0" />
+                    <element signature="e#1245#2743#0" />
+                    <element signature="e#1922#2383#0" />
+                    <element signature="e#2750#3066#0" />
+                    <element signature="e#3073#3867#0" />
+                    <element signature="e#3877#4203#0" />
+                    <element signature="e#4323#4372#0" />
+                    <element signature="e#4425#5499#0" />
+                    <element signature="e#4658#5491#0" />
+                    <element signature="e#5302#5482#0" />
+                    <element signature="e#5519#9223#0" />
+                    <element signature="e#5805#5985#0" />
+                    <element signature="e#6250#6296#0" />
+                    <element signature="e#6398#7378#0" />
+                    <element signature="e#7449#7695#0" />
+                    <element signature="e#7722#7813#0" />
+                    <element signature="e#7839#7928#0" />
+                    <element signature="e#7953#8038#0" />
+                    <element signature="e#8071#8103#0" />
+                    <element signature="e#8135#8256#0" />
+                    <element signature="e#5244#5300#0" />
+                    <element signature="e#6260#6638#0" />
+                    <element signature="e#6648#6892#0" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/main.scss">
+            <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="679">
-                  <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="26" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="26" />
                   <folding>
-                    <element signature="e#909#1119#0" />
-                    <element signature="e#1124#1331#0" />
-                    <element signature="e#1336#1538#0" />
-                    <element signature="e#2361#5503#0" />
-                    <element signature="e#5519#6204#0" />
-                    <element signature="e#6221#7735#0" />
-                    <element signature="e#7749#9966#0" />
-                    <element signature="e#13076#13262#0" />
-                    <element signature="e#13275#13447#0" />
-                    <element signature="e#13468#13770#0" />
+                    <element signature="n#!!doc" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -110,34 +154,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
-        <option value="JavaScript File" />
-        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>height: 100vh;</find>
-      <find>height</find>
-      <find>over</find>
-      <find>overflow</find>
-      <find>94</find>
-      <find>95</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/img/nimLogo.svg" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/css/main.scss" />
+        <option value="$PROJECT_DIR$/css/neomorph.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/problem.html" />
+        <option value="$PROJECT_DIR$/css/neomorph.scss" />
+        <option value="$PROJECT_DIR$/us.html" />
       </list>
     </option>
   </component>
@@ -147,40 +180,41 @@
     <option name="width" value="699" />
     <option name="height" value="754" />
   </component>
-  <component name="ProjectId" id="1Xf8HVZkMlP8ZxFrqAykWVd6FwF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RECO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RECO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RECO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RECO" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="NewWatcherDialog.advanced.open" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Новая папка" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\zeesn\OneDrive\Рабочий стол\RECO\RECO\img" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,386 +233,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="134ec0f4-ce6b-4c1e-8164-67871179fe42" name="Default Changelist" comment="" />
-      <created>1581425703003</created>
+      <changelist id="4aeda1a6-3452-4b5f-8f99-cf0e569ebe6f" name="Default Changelist" comment="" />
+      <created>1584440993975</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581425703003</updated>
-      <workItem from="1581425714609" duration="402000" />
-      <workItem from="1581426513098" duration="211000" />
-      <workItem from="1581426817493" duration="4189000" />
-      <workItem from="1581431160983" duration="1481000" />
-      <workItem from="1581506616214" duration="1125000" />
-      <workItem from="1581508242079" duration="168000" />
-      <workItem from="1581509469435" duration="64000" />
-      <workItem from="1581509906584" duration="8000" />
-      <workItem from="1581510182090" duration="169000" />
-      <workItem from="1581511603263" duration="189000" />
-      <workItem from="1581511868149" duration="4639000" />
-      <workItem from="1581945834524" duration="5863000" />
-      <workItem from="1582006873505" duration="11533000" />
-      <workItem from="1582632445189" duration="2359000" />
-      <workItem from="1582730517277" duration="541000" />
-      <workItem from="1582731296341" duration="8623000" />
-      <workItem from="1582785239820" duration="8741000" />
-      <workItem from="1583218205867" duration="22813000" />
-      <workItem from="1583823759437" duration="14212000" />
-      <workItem from="1583867480982" duration="1845000" />
+      <updated>1584440993975</updated>
+      <workItem from="1584441001554" duration="3233000" />
+      <workItem from="1584633602124" duration="13055000" />
     </task>
-    <task id="LOCAL-00030" summary="RECO ver. 2">
-      <created>1582745512502</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1582745512502</updated>
-    </task>
-    <task id="LOCAL-00031" summary="RECO ver. 2">
-      <created>1582745596297</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1582745596297</updated>
-    </task>
-    <task id="LOCAL-00032" summary="RECO ver. 2">
-      <created>1582745900535</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1582745900535</updated>
-    </task>
-    <task id="LOCAL-00033" summary="RECO ver. 2">
-      <created>1582745919956</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1582745919956</updated>
-    </task>
-    <task id="LOCAL-00034" summary="RECO ver. 2">
-      <created>1582746314246</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1582746314246</updated>
-    </task>
-    <task id="LOCAL-00035" summary="RECO ver. 2">
-      <created>1582746354039</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1582746354039</updated>
-    </task>
-    <task id="LOCAL-00036" summary="RECO ver. 2">
-      <created>1582746399258</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1582746399258</updated>
-    </task>
-    <task id="LOCAL-00037" summary="RECO ver. 2">
-      <created>1582746439169</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1582746439169</updated>
-    </task>
-    <task id="LOCAL-00038" summary="RECO ver. 2">
-      <created>1582746476508</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1582746476508</updated>
-    </task>
-    <task id="LOCAL-00039" summary="RECO ver. 2">
-      <created>1582746927478</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1582746927478</updated>
-    </task>
-    <task id="LOCAL-00040" summary="RECO ver. 2">
-      <created>1582747375280</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1582747375280</updated>
-    </task>
-    <task id="LOCAL-00041" summary="RECO ver. 2">
-      <created>1582748435445</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1582748435445</updated>
-    </task>
-    <task id="LOCAL-00042" summary="RECO ver. 2">
-      <created>1582748989019</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1582748989019</updated>
-    </task>
-    <task id="LOCAL-00043" summary="RECO ver. 2">
-      <created>1582749120280</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1582749120280</updated>
-    </task>
-    <task id="LOCAL-00044" summary="RECO ver. 2">
-      <created>1582749523831</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1582749523831</updated>
-    </task>
-    <task id="LOCAL-00045" summary="RECO ver. 2">
-      <created>1582749996492</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1582749996492</updated>
-    </task>
-    <task id="LOCAL-00046" summary="RECO ver. 2">
-      <created>1582750052812</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1582750052812</updated>
-    </task>
-    <task id="LOCAL-00047" summary="RECO ver. 2">
-      <created>1582750580821</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1582750580821</updated>
-    </task>
-    <task id="LOCAL-00048" summary="RECO ver. 2">
-      <created>1582750826922</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1582750826922</updated>
-    </task>
-    <task id="LOCAL-00049" summary="RECO ver. 2">
-      <created>1582750955510</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1582750955510</updated>
-    </task>
-    <task id="LOCAL-00050" summary="RECO ver. 2">
-      <created>1582751974144</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1582751974146</updated>
-    </task>
-    <task id="LOCAL-00051" summary="RECO ver. 2">
-      <created>1582752253177</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1582752253177</updated>
-    </task>
-    <task id="LOCAL-00052" summary="RECO ver. 2">
-      <created>1582752315872</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1582752315872</updated>
-    </task>
-    <task id="LOCAL-00053" summary="RECO ver. 2">
-      <created>1582752859198</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1582752859198</updated>
-    </task>
-    <task id="LOCAL-00054" summary="RECO ver. 2">
-      <created>1582753081770</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1582753081770</updated>
-    </task>
-    <task id="LOCAL-00055" summary="RECO ver. 2">
-      <created>1582753236826</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1582753236826</updated>
-    </task>
-    <task id="LOCAL-00056" summary="RECO ver. 2">
-      <created>1582753526221</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1582753526222</updated>
-    </task>
-    <task id="LOCAL-00057" summary="RECO ver. 2">
-      <created>1582792056470</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1582792056471</updated>
-    </task>
-    <task id="LOCAL-00058" summary="RECO ver. 2">
-      <created>1582792278110</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1582792278110</updated>
-    </task>
-    <task id="LOCAL-00059" summary="RECO ver. 2">
-      <created>1582793010687</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1582793010687</updated>
-    </task>
-    <task id="LOCAL-00060" summary="RECO ver. 2">
-      <created>1583222995059</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1583222995060</updated>
-    </task>
-    <task id="LOCAL-00061" summary="RECO ver. 2">
-      <created>1583223228996</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1583223228996</updated>
-    </task>
-    <task id="LOCAL-00062" summary="RECO ver. 2">
-      <created>1583223318179</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1583223318179</updated>
-    </task>
-    <task id="LOCAL-00063" summary="RECO ver. 2">
-      <created>1583223603480</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1583223603480</updated>
-    </task>
-    <task id="LOCAL-00064" summary="RECO ver. 2">
-      <created>1583229421159</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1583229421159</updated>
-    </task>
-    <task id="LOCAL-00065" summary="RECO ver. 2">
-      <created>1583230489935</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1583230489936</updated>
-    </task>
-    <task id="LOCAL-00066" summary="RECO ver. 2">
-      <created>1583232601863</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1583232601863</updated>
-    </task>
-    <task id="LOCAL-00067" summary="RECO ver. 2">
-      <created>1583236395031</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1583236395031</updated>
-    </task>
-    <task id="LOCAL-00068" summary="RECO ver. 2">
-      <created>1583236462275</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1583236462275</updated>
-    </task>
-    <task id="LOCAL-00069" summary="RECO ver. 2">
-      <created>1583237502090</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1583237502090</updated>
-    </task>
-    <task id="LOCAL-00070" summary="RECO ver. 2">
-      <created>1583243626565</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1583243626565</updated>
-    </task>
-    <task id="LOCAL-00071" summary="RECO ver. 2">
-      <created>1583244166871</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1583244166871</updated>
-    </task>
-    <task id="LOCAL-00072" summary="RECO ver. 3">
-      <created>1583827153963</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1583827154045</updated>
-    </task>
-    <task id="LOCAL-00073" summary="RECO ver. 3">
-      <created>1583827809322</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1583827809323</updated>
-    </task>
-    <task id="LOCAL-00074" summary="RECO ver. 3">
-      <created>1583828135659</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1583828135659</updated>
-    </task>
-    <task id="LOCAL-00075" summary="RECO ver. 3">
-      <created>1583828621212</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1583828621212</updated>
-    </task>
-    <task id="LOCAL-00076" summary="RECO ver. 3">
-      <created>1583829594852</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1583829594852</updated>
-    </task>
-    <task id="LOCAL-00077" summary="RECO ver. 3">
-      <created>1583851871238</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1583851871238</updated>
-    </task>
-    <task id="LOCAL-00078" summary="RECO ver. 3">
-      <created>1583869547977</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1583869548001</updated>
-    </task>
-    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122832000" />
+    <option name="totallyTimeSpent" value="16288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.08396369" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13113007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -587,16 +259,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32745314" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32855567" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32855567" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -611,155 +283,120 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="RECO ver. 1" />
-    <MESSAGE value="RECO ver. 2" />
-    <MESSAGE value="RECO ver. 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="RECO ver. 3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="275" y="28" key="#File_Watchers" timestamp="1581428326189">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="275" y="28" key="#File_Watchers/0.0.1366.738@0.0.1366.738" timestamp="1581428326189" />
-    <state x="462" y="75" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1581426091963">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="462" y="75" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.738@0.0.1366.738" timestamp="1581426091963" />
-    <state x="318" y="35" width="729" height="703" key="EditFileWatcherDialog" timestamp="1581428257681">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="318" y="35" width="729" height="703" key="EditFileWatcherDialog/0.0.1366.738@0.0.1366.738" timestamp="1581428257681" />
-    <state x="462" y="125" key="FileChooserDialogImpl" timestamp="1581428057337">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="462" y="125" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1581428057337" />
-    <state x="511" y="279" width="368" height="179" key="Github.CreateGistDialog" timestamp="1581431984001">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="511" y="279" width="368" height="179" key="Github.CreateGistDialog/0.0.1366.738@0.0.1366.738" timestamp="1581431984001" />
-    <state x="184" y="12" key="SettingsEditor" timestamp="1581432018555">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="184" y="12" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1581432018555" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../Web Devel/main_old.js">
+    <entry file="file://$PROJECT_DIR$/img/RECO-01.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="249" column="7" lean-forward="true" selection-start-line="238" selection-start-column="4" selection-end-line="249" selection-end-column="7" />
+        <state relative-caret-position="204">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="80" selection-end-column="10" />
           <folding>
-            <element signature="e#446#1163#0" />
-            <element signature="e#1201#1916#0" />
-            <element signature="e#1954#2670#0" />
-            <element signature="e#3120#3847#0" />
-            <element signature="e#3992#5983#0" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#2;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#3;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/nimLogo.svg" />
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+        <state relative-caret-position="200">
+          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="287" selection-end-column="3" />
           <folding>
-            <element signature="e#909#1119#0" />
-            <element signature="e#1124#1331#0" />
-            <element signature="e#1336#1538#0" />
-            <element signature="e#2361#5503#0" />
-            <element signature="e#5519#6204#0" />
-            <element signature="e#6221#7735#0" />
-            <element signature="e#7749#9966#0" />
-            <element signature="e#13076#13262#0" />
-            <element signature="e#13275#13447#0" />
-            <element signature="e#13468#13770#0" />
+            <element signature="e#433#2087#0" />
+            <element signature="e#1502#1852#0" />
+            <element signature="e#1867#2082#0" />
+            <element signature="e#2277#5420#0" />
+            <element signature="e#2522#2577#0" />
+            <element signature="e#2590#2770#0" />
+            <element signature="e#2782#5414#0" />
+            <element signature="e#5436#6123#0" />
+            <element signature="e#6140#7678#0" />
+            <element signature="e#7692#9560#0" />
+            <element signature="e#9664#16711#0" />
+            <element signature="e#16775#23212#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="78" column="4" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="26" />
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="26" />
           <folding>
-            <element signature="e#259#911#0" />
-            <element signature="e#930#2118#0" />
-            <marker date="1583870121776" expanded="false" signature="2251:2270" ph="..." />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
+    <entry file="file://$PROJECT_DIR$/us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="236" selection-start-line="236" selection-end-line="280" />
-          <folding>
-            <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#animateTransform#0;n#path#0;n#svg#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#animateTransform#0;n#path#1;n#svg#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#animateTransform#0;n#path#2;n#svg#0;n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="207" selection-start-line="207" selection-end-line="207" />
+        <state relative-caret-position="68">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#animateTransform#0;n#path#0;n#svg#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#animateTransform#0;n#path#1;n#svg#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#animateTransform#0;n#path#2;n#svg#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/neomorph.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="180" lean-forward="true" selection-start-line="180" selection-end-line="180" />
+          <folding>
+            <element signature="e#973#1235#0" />
+            <element signature="e#1245#2743#0" />
+            <element signature="e#1922#2383#0" />
+            <element signature="e#2750#3066#0" />
+            <element signature="e#3073#3867#0" />
+            <element signature="e#3877#4203#0" />
+            <element signature="e#4323#4372#0" />
+            <element signature="e#4425#5499#0" />
+            <element signature="e#4658#5491#0" />
+            <element signature="e#5302#5482#0" />
+            <element signature="e#5519#9223#0" />
+            <element signature="e#5805#5985#0" />
+            <element signature="e#6250#6296#0" />
+            <element signature="e#6398#7378#0" />
+            <element signature="e#7449#7695#0" />
+            <element signature="e#7722#7813#0" />
+            <element signature="e#7839#7928#0" />
+            <element signature="e#7953#8038#0" />
+            <element signature="e#8071#8103#0" />
+            <element signature="e#8135#8256#0" />
+            <element signature="e#5244#5300#0" />
+            <element signature="e#6260#6638#0" />
+            <element signature="e#6648#6892#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
