@@ -327,6 +327,12 @@ main #fifth {
   top: 13%;
   position: absolute;
 }
+@media (max-width: 450px) {
+  main #fifth {
+    bottom: 0;
+    top: 0;
+  }
+}
 main #fifth .screen-item {
   display: flex;
   justify-content: space-around;
@@ -343,6 +349,12 @@ main #fifth .screen-item {
   main #fifth .screen-item {
     padding: 0 0 0 0;
     width: 90vw;
+  }
+}
+@media (max-width: 450px) {
+  main #fifth .screen-item {
+    border-radius: 0;
+    width: 100vw;
   }
 }
 main #fifth .screen-item .logo {
