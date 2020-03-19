@@ -7,9 +7,9 @@
 
 $('.menu-toggle').click(function () {
 
-    var links = $('.menu-links');
-    var blur = $('.section');
-    var status = $('.line-status');
+    // var links = $('.menu-links');
+    // var blur = $('.section');
+    // var status = $('.line-status');
 
 
     $('ul').toggleClass('opening');
@@ -20,9 +20,9 @@ $('.menu-toggle').click(function () {
     //         'position: fixed !important;'
     //     );
 
-    $(links).attr('style') ?
-        $(links).removeAttr('style') :
-        $(links).attr('style', 'visibility: hidden;');
+    // $(links).attr('style') ?
+    //     $(links).removeAttr('style') :
+    //     $(links).attr('style', 'visibility: hidden;');
 
 
 
