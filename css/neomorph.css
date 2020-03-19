@@ -131,7 +131,7 @@ button .arrow {
 }
 
 main {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   position: absolute;
   top: 0;
@@ -212,7 +212,7 @@ main .menu-left .menu {
   justify-content: center;
   align-items: center;
   position: absolute;
-  height: 100vw;
+  height: 100%;
   left: 0;
   width: 0;
 }

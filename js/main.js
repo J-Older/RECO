@@ -13,6 +13,12 @@ $('.menu-toggle').click(function () {
 
 
     $('ul').toggleClass('opening');
+    $(blur).attr('style') ?
+        $(blur).removeAttr('style') :
+        $(blur).attr('style',
+            'filter: blur(10px);' +
+            'position: fixed !important;'
+        );
 
     $(links).attr('style') ?
         $(links).removeAttr('style') :
