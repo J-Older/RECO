@@ -94,7 +94,7 @@ body #p_prldr .svg_anm {
 }
 
 main {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   position: absolute;
   top: 0;
