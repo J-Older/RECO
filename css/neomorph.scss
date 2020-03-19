@@ -250,8 +250,8 @@ main {
 
             .toggle-state:checked ~ .indicator {
               transform: translate3d(25%, 0, 0);
-              //background: #ecf0f3 !important;
-              background: yellowgreen !important;
+              background: #ecf0f3 !important;
+              //background: yellowgreen !important;
             }
           }
         }
