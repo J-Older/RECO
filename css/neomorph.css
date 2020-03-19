@@ -212,7 +212,7 @@ main .menu-left .menu {
   justify-content: center;
   align-items: center;
   position: absolute;
-  height: 100%;
+  height: 100vw;
   left: 0;
   width: 0;
 }
