@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aeda1a6-3452-4b5f-8f99-cf0e569ebe6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/RECO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RECOSite.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/RECO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RECO.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace-Home-PC.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/neomorph.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/neomorph.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/neomorph.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/neomorph.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/neomorph.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/neomorph.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/us.html" beforeDir="false" afterPath="$PROJECT_DIR$/us.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,38 +32,13 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/about.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="80" selection-end-column="10" />
-                  <folding>
-                    <element signature="n#head#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#2;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#a#3;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#4;n#main#0;n#body#0;n#html#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/us.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="68">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                  <caret line="15" selection-start-line="15" selection-end-line="15" />
                   <folding>
                     <element signature="n#head#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -81,8 +51,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="287" selection-end-column="3" />
+                <state relative-caret-position="-112">
+                  <caret line="122" selection-start-line="122" selection-end-line="287" selection-end-column="3" />
                   <folding>
                     <element signature="e#433#2087#0" />
                     <element signature="e#1502#1852#0" />
@@ -104,32 +74,24 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/neomorph.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="98">
-                  <caret line="180" lean-forward="true" selection-start-line="180" selection-end-line="180" />
+                <state relative-caret-position="266">
+                  <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
                   <folding>
-                    <element signature="e#973#1235#0" />
-                    <element signature="e#1245#2743#0" />
-                    <element signature="e#1922#2383#0" />
-                    <element signature="e#2750#3066#0" />
-                    <element signature="e#3073#3867#0" />
-                    <element signature="e#3877#4203#0" />
-                    <element signature="e#4323#4372#0" />
-                    <element signature="e#4425#5499#0" />
-                    <element signature="e#4658#5491#0" />
-                    <element signature="e#5302#5482#0" />
-                    <element signature="e#5519#9223#0" />
-                    <element signature="e#5805#5985#0" />
-                    <element signature="e#6250#6296#0" />
-                    <element signature="e#6398#7378#0" />
-                    <element signature="e#7449#7695#0" />
-                    <element signature="e#7722#7813#0" />
-                    <element signature="e#7839#7928#0" />
-                    <element signature="e#7953#8038#0" />
-                    <element signature="e#8071#8103#0" />
-                    <element signature="e#8135#8256#0" />
-                    <element signature="e#5244#5300#0" />
-                    <element signature="e#6260#6638#0" />
-                    <element signature="e#6648#6892#0" />
+                    <element signature="e#7331#7369#0" />
+                    <element signature="e#8429#8469#0" />
+                    <element signature="e#8505#8545#0" />
+                    <element signature="e#8645#11061#0" />
+                    <element signature="e#9129#9277#0" />
+                    <element signature="e#9313#9461#0" />
+                    <element signature="e#9497#9645#0" />
+                    <element signature="e#9659#10055#0" />
+                    <element signature="e#10067#10331#0" />
+                    <element signature="e#10346#11052#0" />
+                    <element signature="e#10482#11042#0" />
+                    <element signature="e#11073#12639#0" />
+                    <element signature="e#12668#12711#0" />
+                    <element signature="e#12731#12915#0" />
+                    <element signature="e#12932#13049#0" />
                   </folding>
                 </state>
               </provider>
@@ -186,7 +148,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,6 +164,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,17 +202,18 @@
       <updated>1584440993975</updated>
       <workItem from="1584441001554" duration="3233000" />
       <workItem from="1584633602124" duration="13055000" />
+      <workItem from="1584710325035" duration="1372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16288000" />
+    <option name="totallyTimeSpent" value="17660000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13113007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13313162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -259,7 +222,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32855567" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3277311" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -307,10 +270,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="287" selection-end-column="3" />
+        <state relative-caret-position="-112">
+          <caret line="122" selection-start-line="122" selection-end-line="287" selection-end-column="3" />
           <folding>
             <element signature="e#433#2087#0" />
             <element signature="e#1502#1852#0" />
@@ -328,12 +301,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/css/neomorph.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="266">
+          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#7331#7369#0" />
+            <element signature="e#8429#8469#0" />
+            <element signature="e#8505#8545#0" />
+            <element signature="e#8645#11061#0" />
+            <element signature="e#9129#9277#0" />
+            <element signature="e#9313#9461#0" />
+            <element signature="e#9497#9645#0" />
+            <element signature="e#9659#10055#0" />
+            <element signature="e#10067#10331#0" />
+            <element signature="e#10346#11052#0" />
+            <element signature="e#10482#11042#0" />
+            <element signature="e#11073#12639#0" />
+            <element signature="e#12668#12711#0" />
+            <element signature="e#12731#12915#0" />
+            <element signature="e#12932#13049#0" />
           </folding>
         </state>
       </provider>
@@ -341,44 +328,9 @@
     <entry file="file://$PROJECT_DIR$/us.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/neomorph.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="180" lean-forward="true" selection-start-line="180" selection-end-line="180" />
-          <folding>
-            <element signature="e#973#1235#0" />
-            <element signature="e#1245#2743#0" />
-            <element signature="e#1922#2383#0" />
-            <element signature="e#2750#3066#0" />
-            <element signature="e#3073#3867#0" />
-            <element signature="e#3877#4203#0" />
-            <element signature="e#4323#4372#0" />
-            <element signature="e#4425#5499#0" />
-            <element signature="e#4658#5491#0" />
-            <element signature="e#5302#5482#0" />
-            <element signature="e#5519#9223#0" />
-            <element signature="e#5805#5985#0" />
-            <element signature="e#6250#6296#0" />
-            <element signature="e#6398#7378#0" />
-            <element signature="e#7449#7695#0" />
-            <element signature="e#7722#7813#0" />
-            <element signature="e#7839#7928#0" />
-            <element signature="e#7953#8038#0" />
-            <element signature="e#8071#8103#0" />
-            <element signature="e#8135#8256#0" />
-            <element signature="e#5244#5300#0" />
-            <element signature="e#6260#6638#0" />
-            <element signature="e#6648#6892#0" />
           </folding>
         </state>
       </provider>
