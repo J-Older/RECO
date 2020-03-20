@@ -10,6 +10,7 @@ $('.menu-toggle').click(function () {
     var links = $('.menu-links');
     var blur = $('.section');
     var status = $('.line-status');
+    var menu = $('.menu-left');
 
 
     $('ul').toggleClass('opening');
@@ -28,6 +29,10 @@ $('.menu-toggle').click(function () {
     $(status).attr('style') ?
         $(status).removeAttr('style') :
         $(status).attr('style', 'visibility: hidden;');
+
+    $(menu).attr('style') ?
+        $(menu).removeAttr('style') :
+        $(menu).attr('style', 'width: 100vw;');
 
 
     $(this).toggleClass('open');
@@ -85,12 +90,16 @@ $('#mode').change(function () {
 
     if ($(this).prop('checked')) {
         $('body').addClass('dark-mode');
+        $('.menu-left').addClass('dark-mode');
+        $('.menu-left').addClass('dark-mode-out');
         $('ul').addClass('dark-mode');
         $('.screen-item').addClass('dark-mode');
         $('.screen-item').addClass('dark-mode-out');
         $('.shadow').addClass('dark-mode-shadow');
     } else {
         $('body').removeClass('dark-mode');
+        $('.menu-left').removeClass('dark-mode');
+        $('.menu-left').removeClass('dark-mode-out');
         $('ul').removeClass('dark-mode');
         $('.screen-item').removeClass('dark-mode');
         $('.screen-item').removeClass('dark-mode-out');
@@ -104,6 +113,8 @@ $(function () {
     var data = localStorage.getItem("showning");
     if (data !== null) {
         $('body').addClass('dark-mode');
+        $('.menu-left').addClass('dark-mode');
+        $('.menu-left').addClass('dark-mode-out');
         $('ul').addClass('dark-mode');
         $('.screen-item').addClass('dark-mode');
         $('.screen-item').addClass('dark-mode-out');
@@ -111,6 +122,8 @@ $(function () {
         $("input[name='switch_show']").attr("checked", "checked");
     } else {
         $('body').removeClass('dark-mode');
+        $('.menu-left').removeClass('dark-mode');
+        $('.menu-left').removeClass('dark-mode-out');
         $('ul').removeClass('dark-mode');
         $('.screen-item').removeClass('dark-mode');
         $('.screen-item').removeClass('dark-mode-out');
