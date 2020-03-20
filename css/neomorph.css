@@ -198,7 +198,7 @@ main .menu-left .menu ul li:last-of-type .indicator {
 }
 main .menu-left .menu ul li:last-of-type .toggle-state:checked ~ .indicator {
   transform: translate3d(25%, 0, 0);
-  background: yellowgreen;
+  background: yellowgreen !important;
 }
 main .menu-left .menu .hamburger,
 main .menu-left .menu .hamburger::before,

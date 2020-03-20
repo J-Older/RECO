@@ -249,7 +249,7 @@ main {
 
             .toggle-state:checked ~ .indicator {
               transform: translate3d(25%, 0, 0);
-              background: yellowgreen;
+              background: yellowgreen !important;
               //background: yellowgreen !important;
             }
 
