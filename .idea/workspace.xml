@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aeda1a6-3452-4b5f-8f99-cf0e569ebe6f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/RECO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RECO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/neomorph.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/neomorph.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/neomorph.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/neomorph.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/neomorph.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/neomorph.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/us.html" beforeDir="false" afterPath="$PROJECT_DIR$/us.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,23 +67,19 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/neomorph.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="266">
-                  <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+                <state relative-caret-position="265">
+                  <caret line="477" column="80" selection-start-line="477" selection-start-column="80" selection-end-line="477" selection-end-column="80" />
                   <folding>
                     <element signature="e#7331#7369#0" />
                     <element signature="e#8429#8469#0" />
                     <element signature="e#8505#8545#0" />
-                    <element signature="e#8645#11061#0" />
                     <element signature="e#9129#9277#0" />
                     <element signature="e#9313#9461#0" />
                     <element signature="e#9497#9645#0" />
                     <element signature="e#9659#10055#0" />
                     <element signature="e#10067#10331#0" />
-                    <element signature="e#10346#11052#0" />
-                    <element signature="e#10482#11042#0" />
                     <element signature="e#11073#12639#0" />
                     <element signature="e#12668#12711#0" />
-                    <element signature="e#12731#12915#0" />
                     <element signature="e#12932#13049#0" />
                   </folding>
                 </state>
@@ -131,8 +120,8 @@
         <option value="$PROJECT_DIR$/css/neomorph.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/problem.html" />
-        <option value="$PROJECT_DIR$/css/neomorph.scss" />
         <option value="$PROJECT_DIR$/us.html" />
+        <option value="$PROJECT_DIR$/css/neomorph.scss" />
       </list>
     </option>
   </component>
@@ -202,12 +191,20 @@
       <updated>1584440993975</updated>
       <workItem from="1584441001554" duration="3233000" />
       <workItem from="1584633602124" duration="13055000" />
-      <workItem from="1584710325035" duration="1372000" />
+      <workItem from="1584710325035" duration="2138000" />
     </task>
+    <task id="LOCAL-00001" summary="Neomorp v1">
+      <created>1584711805520</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584711805520</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17660000" />
+    <option name="totallyTimeSpent" value="18426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -245,6 +242,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Neomorp v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Neomorp v1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/RECO-01.svg">
@@ -301,36 +302,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/neomorph.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
-          <folding>
-            <element signature="e#7331#7369#0" />
-            <element signature="e#8429#8469#0" />
-            <element signature="e#8505#8545#0" />
-            <element signature="e#8645#11061#0" />
-            <element signature="e#9129#9277#0" />
-            <element signature="e#9313#9461#0" />
-            <element signature="e#9497#9645#0" />
-            <element signature="e#9659#10055#0" />
-            <element signature="e#10067#10331#0" />
-            <element signature="e#10346#11052#0" />
-            <element signature="e#10482#11042#0" />
-            <element signature="e#11073#12639#0" />
-            <element signature="e#12668#12711#0" />
-            <element signature="e#12731#12915#0" />
-            <element signature="e#12932#13049#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/us.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/neomorph.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="477" column="80" selection-start-line="477" selection-start-column="80" selection-end-line="477" selection-end-column="80" />
+          <folding>
+            <element signature="e#7331#7369#0" />
+            <element signature="e#8429#8469#0" />
+            <element signature="e#8505#8545#0" />
+            <element signature="e#9129#9277#0" />
+            <element signature="e#9313#9461#0" />
+            <element signature="e#9497#9645#0" />
+            <element signature="e#9659#10055#0" />
+            <element signature="e#10067#10331#0" />
+            <element signature="e#11073#12639#0" />
+            <element signature="e#12668#12711#0" />
+            <element signature="e#12932#13049#0" />
           </folding>
         </state>
       </provider>

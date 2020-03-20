@@ -86,7 +86,9 @@ main {
         filter: none;
         color: #e4e5ed;
         transition: 0.4s;
-        background: linear-gradient(135deg, #bbd897a6 20%, #9acd32a3 100%)
+        background: linear-gradient(135deg, #bbd897a6 20%, #9acd32a3 100%);
+        box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.5), 5px 5px 5px rgba(70, 70, 70, 0.1), inset -5px -5px 5px rgba(255, 255, 255, 0.5), inset 5px 5px 5px rgba(70, 70, 70, 0.1);
+
       }
 
     }
@@ -473,8 +475,9 @@ main {
             background: linear-gradient(135deg, #f6f8fb 20%, #e4e5ed 100%);
 
             &:hover {
-              background: linear-gradient(135deg, #bbd897a6 20%, #9acd32a3 100%) !important;
+              background: linear-gradient(135deg, #bbd897a6 20%, #9acd32a3 100%);
               color: #e4e5ed;
+              box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.5), 5px 5px 5px rgba(70, 70, 70, 0.1), inset -5px -5px 5px rgba(255, 255, 255, 0.5), inset 5px 5px 5px rgba(70, 70, 70, 0.1);
             }
 
 
