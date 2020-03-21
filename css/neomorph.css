@@ -12,6 +12,48 @@ body * {
   box-sizing: border-box;
   font-family: Montserrat, sans-serif;
 }
+body #p_prldr {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e4e5ed;
+}
+body #p_prldr .contpre {
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 68%;
+  margin-left: -125px;
+  margin-top: -75px;
+  text-align: center;
+  font-family: "Comfortaa", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.25);
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+  -webkit-background-clip: text;
+  font-weight: bold;
+}
+body #p_prldr .svg_anm {
+  display: block;
+  background-size: 41px;
+  height: 100px;
+  width: 100px;
+  z-index: 2;
+  border-radius: 50%;
+  border: 2px solid #e4e5ed;
+  background: #e4e5ed;
+  box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.5), 5px 5px 5px rgba(70, 70, 70, 0.1), inset -5px -5px 5px rgba(255, 255, 255, 0.5), inset 5px 5px 5px rgba(70, 70, 70, 0.1);
+}
 
 main {
   width: 100%;

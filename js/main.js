@@ -1,9 +1,3 @@
-// $('html, body, *').mousewheel(function (e, deltaX) {
-//     // multiplying by 40 is the sensitivity,
-//     // increase to scroll faster.
-//     // this.scrollLeft -= (deltaX * 40);
-//     // e.preventDefault();
-// });
 
 $('.menu-toggle').click(function () {
 
@@ -88,46 +82,54 @@ $(window).on('load', function () {
 
 $('#mode').change(function () {
 
+    var menu = $('.menu-left');
+    var item = $('.screen-item');
+    var shadow = $('.shadow');
+
     if ($(this).prop('checked')) {
         $('body').addClass('dark-mode');
-        $('.menu-left').addClass('dark-mode');
-        $('.menu-left').addClass('dark-mode-out');
+        $(menu).addClass('dark-mode');
+        $(menu).addClass('dark-mode-out');
         $('ul').addClass('dark-mode');
-        $('.screen-item').addClass('dark-mode');
-        $('.screen-item').addClass('dark-mode-out');
-        $('.shadow').addClass('dark-mode-shadow');
+        $(item).addClass('dark-mode');
+        $(item).addClass('dark-mode-out');
+        $(shadow).addClass('dark-mode-shadow');
     } else {
         $('body').removeClass('dark-mode');
-        $('.menu-left').removeClass('dark-mode');
-        $('.menu-left').removeClass('dark-mode-out');
+        $(menu).removeClass('dark-mode');
+        $(menu).removeClass('dark-mode-out');
         $('ul').removeClass('dark-mode');
-        $('.screen-item').removeClass('dark-mode');
-        $('.screen-item').removeClass('dark-mode-out');
-        $('.shadow').removeClass('dark-mode-shadow');
+        $(item).removeClass('dark-mode');
+        $(item).removeClass('dark-mode-out');
+        $(shadow).removeClass('dark-mode-shadow');
     }
 
 });
 
 
 $(function () {
+    var menu = $('.menu-left');
+    var item = $('.screen-item');
+    var shadow = $('.shadow');
     var data = localStorage.getItem("showning");
+
     if (data !== null) {
         $('body').addClass('dark-mode');
-        $('.menu-left').addClass('dark-mode');
-        $('.menu-left').addClass('dark-mode-out');
+        $(menu).addClass('dark-mode');
+        $(menu).addClass('dark-mode-out');
         $('ul').addClass('dark-mode');
-        $('.screen-item').addClass('dark-mode');
-        $('.screen-item').addClass('dark-mode-out');
-        $('.shadow').addClass('dark-mode-shadow');
+        $(item).addClass('dark-mode');
+        $(item).addClass('dark-mode-out');
+        $(shadow).addClass('dark-mode-shadow');
         $("input[name='switch_show']").attr("checked", "checked");
     } else {
         $('body').removeClass('dark-mode');
-        $('.menu-left').removeClass('dark-mode');
-        $('.menu-left').removeClass('dark-mode-out');
+        $(menu).removeClass('dark-mode');
+        $(menu).removeClass('dark-mode-out');
         $('ul').removeClass('dark-mode');
-        $('.screen-item').removeClass('dark-mode');
-        $('.screen-item').removeClass('dark-mode-out');
-        $('.shadow').removeClass('dark-mode-shadow');
+        $(item).removeClass('dark-mode');
+        $(item).removeClass('dark-mode-out');
+        $(shadow).removeClass('dark-mode-shadow');
     }
 });
 
